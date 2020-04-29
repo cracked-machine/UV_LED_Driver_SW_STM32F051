@@ -151,10 +151,10 @@ void EXTI0_1_IRQHandler(void)
 	{
 		HAL_GPIO_TogglePin(GPIOA, STATUS_GREEN_Pin);
 		HAL_GPIO_TogglePin(GPIOA, STATUS_RED_Pin);
-		TIM1->CCR1 ^= 0x80;
-		TIM1->CCR2 ^= 0x80;
-		TIM1->CCR3 ^= 0x80;
-		TIM1->CCR4 ^= 0x80;
+		TIM1->CCR1 ^= 0x40;
+		//TIM1->CCR2 ^= 0x40;
+		//TIM1->CCR3 ^= 0x40;
+		//TIM1->CCR4 ^= 0x40;
 	}
 	last_interrupt_time = interrupt_time;
   /* USER CODE END EXTI0_1_IRQn 0 */
