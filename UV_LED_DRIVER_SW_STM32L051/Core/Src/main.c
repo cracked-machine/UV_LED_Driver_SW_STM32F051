@@ -20,8 +20,6 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "adc.h"
-#include "dac.h"
 #include "tim.h"
 #include "gpio.h"
 
@@ -74,7 +72,7 @@ int main(void)
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
- HAL_Init();
+  HAL_Init();
 
   /* USER CODE BEGIN Init */
 
@@ -90,31 +88,69 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM1_Init();
-  MX_ADC_Init();
-  MX_DAC1_Init();
   MX_TIM17_Init();
+  MX_TIM14_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+
+  // PWM OUTPUTS
   HAL_TIM_Base_Start(&htim17);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_4);
+  HAL_TIM_PWM_Start(&htim14, TIM_CHANNEL_1);
 
-  TIM1->ARR = 0x40;
-  TIM1->CCR1 = 0x00;
-  TIM1->CCR2 = 0x00;
-  TIM1->CCR3 = 0x00;
-  TIM1->CCR4 = 0x00;
+  TIM1->ARR = 0xFF;		// 	255
+  TIM1->CCR1 = 0x1F;	// 	31	12.5%
+  TIM1->CCR2 = 0x3F;	//	63	25%
+  TIM1->CCR3 = 0x7F;	//	127 50%
+  TIM1->CCR4 = 0xBF;	//  191 75%
 
+  TIM14->ARR = 0xFF;	// 	255
+  TIM14->CCR1 = 0x1F;	// 	31	12.5%
+
+  // LED OUTPUT
   HAL_GPIO_WritePin(GPIOA, STATUS_BLUE_Pin, GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOA, STATUS_RED_Pin, GPIO_PIN_RESET);
   HAL_GPIO_WritePin(GPIOA, STATUS_GREEN_Pin, GPIO_PIN_SET);
+
+  // rotary encoder
+  HAL_TIM_Base_Start(&htim2);
+  uint8_t previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+	  	uint8_t new_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+
+		if( (previous_encoder_dir) && (!new_encoder_dir) )
+		{
+			TIM1->CCR1++;
+			TIM1->CCR2++;
+			TIM1->CCR3++;
+			TIM1->CCR4++;
+			TIM14->CCR1++;
+			previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+		}
+		else if( (!previous_encoder_dir) && (new_encoder_dir) )
+		{
+			TIM1->CCR1--;
+			TIM1->CCR2--;
+			TIM1->CCR3--;
+			TIM1->CCR4--;
+			TIM14->CCR1--;
+			previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+		}
+
+
+
+
+
 
     /* USER CODE END WHILE */
 
@@ -134,11 +170,9 @@ void SystemClock_Config(void)
 
   /** Initializes the CPU, AHB and APB busses clocks 
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_HSI14;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSI14State = RCC_HSI14_ON;
   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.HSI14CalibrationValue = 16;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {

@@ -57,7 +57,7 @@ uint16_t last_interrupt_time = 0;
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-
+extern TIM_HandleTypeDef htim2;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -151,17 +151,32 @@ void EXTI0_1_IRQHandler(void)
 	{
 		HAL_GPIO_TogglePin(GPIOA, STATUS_GREEN_Pin);
 		HAL_GPIO_TogglePin(GPIOA, STATUS_RED_Pin);
-		TIM1->CCR1 ^= 0x40;
-		//TIM1->CCR2 ^= 0x40;
-		//TIM1->CCR3 ^= 0x40;
-		//TIM1->CCR4 ^= 0x40;
+		TIM1->CCR1 ^= 0x60;
+		TIM1->CCR2 ^= 0x60;
+		TIM1->CCR3 ^= 0x60;
+		TIM1->CCR4 ^= 0x60;
+		TIM14->CCR1 ^= 0x60;
 	}
 	last_interrupt_time = interrupt_time;
   /* USER CODE END EXTI0_1_IRQn 0 */
-  HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_1);
+  HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_0);
   /* USER CODE BEGIN EXTI0_1_IRQn 1 */
 
   /* USER CODE END EXTI0_1_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM2 global interrupt.
+  */
+void TIM2_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM2_IRQn 0 */
+
+  /* USER CODE END TIM2_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim2);
+  /* USER CODE BEGIN TIM2_IRQn 1 */
+
+  /* USER CODE END TIM2_IRQn 1 */
 }
 
 /* USER CODE BEGIN 1 */
