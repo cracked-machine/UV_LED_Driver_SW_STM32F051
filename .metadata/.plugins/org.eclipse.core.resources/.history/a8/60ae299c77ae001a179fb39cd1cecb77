@@ -92,6 +92,8 @@ int main(void)
   MX_TIM14_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+
+  // PWM OUTPUTS
   HAL_TIM_Base_Start(&htim17);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
@@ -99,23 +101,61 @@ int main(void)
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_4);
   HAL_TIM_PWM_Start(&htim14, TIM_CHANNEL_1);
 
-  TIM1->ARR = 0x30;
-  TIM1->CCR1 = 0x00;
-  TIM1->CCR2 = 0x00;
-  TIM1->CCR3 = 0x00;
-  TIM1->CCR4 = 0x00;
-  TIM14->ARR = 0x30;
-  TIM14->CCR1 = 0x00;
+  TIM1->ARR = 0xFF;		// 	255
+  TIM1->CCR1 = 0x00;	// 	31	12.5%
+  TIM1->CCR2 = 0x00;	//	63	25%
+  TIM1->CCR3 = 0x00;	//	127 50%
+  TIM1->CCR4 = 0x00;	//  191 75%
 
+  TIM14->ARR = 0xFF;	// 	255
+  TIM14->CCR1 = 0x00;	// 	31	12.5%
+
+  // LED OUTPUT
   HAL_GPIO_WritePin(GPIOA, STATUS_BLUE_Pin, GPIO_PIN_SET);
   HAL_GPIO_WritePin(GPIOA, STATUS_RED_Pin, GPIO_PIN_RESET);
   HAL_GPIO_WritePin(GPIOA, STATUS_GREEN_Pin, GPIO_PIN_SET);
+
+  // rotary encoder
+  HAL_TIM_Base_Start(&htim2);
+  uint8_t previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+
+	  	uint8_t new_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+
+		if( (previous_encoder_dir) && (!new_encoder_dir) )
+		{
+			if(TIM2->CNT > 0)
+			{
+				TIM1->CCR1--;
+				TIM1->CCR2--;
+				TIM1->CCR3--;
+				TIM1->CCR4--;
+				TIM14->CCR1--;
+			}
+			previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+		}
+		else if( (!previous_encoder_dir) && (new_encoder_dir) )
+		{
+			TIM1->CCR1++;
+			TIM1->CCR2++;
+			TIM1->CCR3++;
+			TIM1->CCR4++;
+			TIM14->CCR1++;
+
+			previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+		}
+
+
+
+
+
 
     /* USER CODE END WHILE */
 

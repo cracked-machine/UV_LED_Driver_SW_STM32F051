@@ -2477,3 +2477,280 @@
 2020-06-14 16:12:17,729 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2445mS.
 2020-06-14 16:12:17,729 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
 2020-06-14 16:12:17,730 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 17:44:05,346 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 449537856 Bytes (916455424)
+2020-06-14 17:44:07,588 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 466315072 Bytes (916455424)
+2020-06-14 17:44:07,816 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 476800832 Bytes (916455424)
+2020-06-14 17:44:07,996 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-14 17:44:07,996 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:44:07,996 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:44:07,996 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:44:07,996 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:44:07,996 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-14 17:44:07,997 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-14 17:44:07,997 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.0.202002181639//db/
+2020-06-14 17:44:08,184 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-14 17:44:08,250 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-14 17:44:08,295 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-14 17:44:08,366 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-14 17:44:08,369 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-14 17:44:08,441 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-14 17:44:08,689 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-14 17:44:08,690 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-14 17:44:08,691 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 17:44:08,695 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-14 17:44:08,917 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-14 17:44:08,920 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-14 17:44:08,989 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-14 17:44:08,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-14 17:44:08,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 17:44:08,995 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-14 17:44:09,072 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-14 17:44:09,074 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-14 17:44:09,139 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-14 17:44:09,144 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-14 17:44:09,240 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-14 17:44:09,242 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-14 17:44:09,306 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-14 17:44:09,309 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-14 17:44:09,379 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-14 17:44:09,386 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-14 17:44:09,499 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-14 17:44:09,502 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-14 17:44:09,593 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-14 17:44:10,013 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 15mS.
+2020-06-14 17:44:10,015 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-14 17:44:10,258 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-14 17:44:11,833 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1819mS.
+2020-06-14 17:44:11,834 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 17:44:11,834 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 17:53:35,790 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 662039864 Bytes (957349888)
+2020-06-14 17:53:37,525 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 690260048 Bytes (957349888)
+2020-06-14 17:53:37,726 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 699172984 Bytes (957349888)
+2020-06-14 17:53:37,913 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-14 17:53:37,913 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:53:37,913 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:53:37,913 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:53:37,914 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:53:37,914 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-14 17:53:37,914 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-14 17:53:37,914 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.0.202002181639//db/
+2020-06-14 17:53:38,102 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-14 17:53:38,163 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-14 17:53:38,305 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-14 17:53:38,372 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-14 17:53:38,374 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-14 17:53:38,436 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-14 17:53:38,677 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-14 17:53:38,678 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-14 17:53:38,678 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 17:53:38,681 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-14 17:53:38,814 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-14 17:53:38,816 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-14 17:53:38,878 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-14 17:53:38,879 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-14 17:53:38,880 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 17:53:38,883 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-14 17:53:38,955 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-14 17:53:38,958 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-14 17:53:39,019 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-14 17:53:39,023 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-14 17:53:39,112 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-14 17:53:39,114 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-14 17:53:39,173 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-14 17:53:39,175 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-14 17:53:39,241 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-14 17:53:39,248 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-14 17:53:39,315 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-14 17:53:39,317 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-14 17:53:39,398 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-14 17:53:40,031 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 15mS.
+2020-06-14 17:53:40,032 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-14 17:53:40,352 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-14 17:53:41,658 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1626mS.
+2020-06-14 17:53:41,659 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2020-06-14 17:53:41,659 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 17:55:08,596 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 424029568 Bytes (957349888)
+2020-06-14 17:55:09,853 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 440806784 Bytes (957349888)
+2020-06-14 17:55:10,040 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 452341120 Bytes (957349888)
+2020-06-14 17:55:10,208 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-14 17:55:10,208 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:55:10,208 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:55:10,208 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:55:10,208 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:55:10,208 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-14 17:55:10,209 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-14 17:55:10,209 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.0.202002181639//db/
+2020-06-14 17:55:10,389 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-14 17:55:10,446 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-14 17:55:10,488 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-14 17:55:10,552 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-14 17:55:10,554 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-14 17:55:10,612 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-14 17:55:10,847 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-14 17:55:10,848 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-14 17:55:10,849 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 17:55:10,853 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-14 17:55:11,061 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-14 17:55:11,063 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-14 17:55:11,131 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-14 17:55:11,132 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-14 17:55:11,133 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 17:55:11,136 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-14 17:55:11,207 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-14 17:55:11,209 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-14 17:55:11,269 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-14 17:55:11,273 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-14 17:55:11,360 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-14 17:55:11,362 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-14 17:55:11,420 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-14 17:55:11,423 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-14 17:55:11,486 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-14 17:55:11,492 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-14 17:55:11,555 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-14 17:55:11,557 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-14 17:55:11,637 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-14 17:55:12,058 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 15mS.
+2020-06-14 17:55:12,059 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-14 17:55:12,296 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-14 17:55:13,742 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1683mS.
+2020-06-14 17:55:13,743 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 17:55:13,743 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 17:55:46,872 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 746785784 Bytes (984612864)
+2020-06-14 17:55:48,233 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 766182400 Bytes (984612864)
+2020-06-14 17:55:48,428 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 778243064 Bytes (984612864)
+2020-06-14 17:55:48,658 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-14 17:55:48,658 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:55:48,658 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:55:48,658 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:55:48,658 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 17:55:48,658 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-14 17:55:48,658 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-14 17:55:48,659 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.0.202002181639//db/
+2020-06-14 17:55:48,860 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-14 17:55:48,919 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-14 17:55:48,962 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-14 17:55:49,026 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-14 17:55:49,028 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-14 17:55:49,088 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-14 17:55:49,332 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-14 17:55:49,332 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-14 17:55:49,333 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 17:55:49,336 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-14 17:55:49,455 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-14 17:55:49,457 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-14 17:55:49,517 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-14 17:55:49,518 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-14 17:55:49,518 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 17:55:49,521 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-14 17:55:49,592 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-14 17:55:49,594 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-14 17:55:49,654 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-14 17:55:49,657 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-14 17:55:49,745 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-14 17:55:49,747 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-14 17:55:49,804 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-14 17:55:49,806 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-14 17:55:49,953 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-14 17:55:49,959 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-14 17:55:50,024 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-14 17:55:50,026 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-14 17:55:50,107 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-14 17:55:50,524 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 14mS.
+2020-06-14 17:55:50,526 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-14 17:55:50,767 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-14 17:55:52,158 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1632mS.
+2020-06-14 17:55:52,159 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 17:55:52,159 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 20:40:28,964 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 518486168 Bytes (1073741824)
+2020-06-14 20:40:30,146 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 534986304 Bytes (1073741824)
+2020-06-14 20:40:30,325 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 546520528 Bytes (1073741824)
+2020-06-14 20:40:30,491 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-14 20:40:30,491 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 20:40:30,491 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 20:40:30,491 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 20:40:30,491 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 20:40:30,491 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-14 20:40:30,492 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-14 20:40:30,492 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.0.202002181639//db/
+2020-06-14 20:40:30,673 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-14 20:40:30,730 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-14 20:40:30,774 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-14 20:40:30,837 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-14 20:40:30,839 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-14 20:40:30,897 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-14 20:40:31,140 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-14 20:40:31,140 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-14 20:40:31,141 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 20:40:31,144 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-14 20:40:31,262 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-14 20:40:31,264 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-14 20:40:31,323 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-14 20:40:31,324 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-14 20:40:31,325 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 20:40:31,328 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-14 20:40:31,472 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-14 20:40:31,474 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-14 20:40:31,534 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-14 20:40:31,537 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-14 20:40:31,624 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-14 20:40:31,626 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-14 20:40:31,684 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-14 20:40:31,686 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-14 20:40:31,750 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-14 20:40:31,755 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-14 20:40:31,818 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-14 20:40:31,820 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-14 20:40:31,898 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-14 20:40:32,313 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 13mS.
+2020-06-14 20:40:32,314 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-14 20:40:32,552 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-14 20:40:34,392 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2078mS.
+2020-06-14 20:40:34,392 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 20:40:34,393 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 20:51:06,915 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,464x419,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-06-14 20:51:12,279 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 574976688 Bytes (1073741824)
+2020-06-14 20:51:14,038 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 596934600 Bytes (1073741824)
+2020-06-14 20:51:15,940 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 667110472 Bytes (1073741824)
+2020-06-14 20:51:16,110 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-14 20:51:16,110 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 20:51:16,110 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 20:51:16,110 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 20:51:16,110 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-14 20:51:16,110 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-14 20:51:16,110 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-14 20:51:16,111 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.0.202002181639//db/
+2020-06-14 20:51:16,299 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-14 20:51:16,356 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-14 20:51:16,399 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-14 20:51:16,461 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-14 20:51:16,462 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-14 20:51:16,521 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-14 20:51:16,807 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-14 20:51:16,808 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-14 20:51:16,808 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 20:51:16,811 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-14 20:51:16,926 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-14 20:51:16,927 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-14 20:51:16,985 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-14 20:51:16,986 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-14 20:51:16,986 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-14 20:51:16,989 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-14 20:51:17,056 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-14 20:51:17,057 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-14 20:51:17,115 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-14 20:51:17,119 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-14 20:51:17,204 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-14 20:51:17,206 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-14 20:51:17,262 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-14 20:51:17,265 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-14 20:51:17,326 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-14 20:51:17,332 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-14 20:51:17,394 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-14 20:51:17,396 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-14 20:51:17,474 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-14 20:51:17,890 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 14mS.
+2020-06-14 20:51:17,891 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-14 20:51:18,129 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-14 20:51:19,810 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1919mS.
+2020-06-14 20:51:19,810 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-14 20:51:19,811 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.

@@ -35,7 +35,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define ENCODER_MODIFY_VALUE	1
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -103,13 +102,13 @@ int main(void)
   HAL_TIM_PWM_Start(&htim14, TIM_CHANNEL_1);
 
   TIM1->ARR = 0xFF;		// 	255
-  TIM1->CCR1 = 0x00;	// 	31	12.5%
-  TIM1->CCR2 = 0x00;	//	63	25%
-  TIM1->CCR3 = 0x00;	//	127 50%
-  TIM1->CCR4 = 0x00;	//  191 75%
+  TIM1->CCR1 = 0x1F;	// 	31	12.5%
+  TIM1->CCR2 = 0x3F;	//	63	25%
+  TIM1->CCR3 = 0x7F;	//	127 50%
+  TIM1->CCR4 = 0xBF;	//  191 75%
 
   TIM14->ARR = 0xFF;	// 	255
-  TIM14->CCR1 = 0x00;	// 	31	12.5%
+  TIM14->CCR1 = 0x1F;	// 	31	12.5%
 
   // LED OUTPUT
   HAL_GPIO_WritePin(GPIOA, STATUS_BLUE_Pin, GPIO_PIN_SET);
@@ -127,33 +126,24 @@ int main(void)
   while (1)
   {
 
-
 	  	uint8_t new_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
 
-	  	// encoder direction has changed from increasing to decreasing
 		if( (previous_encoder_dir) && (!new_encoder_dir) )
 		{
-			// prevent the CCR registers from rolling around to value above MAX_ENCODER_LIMIT
-			// This will prevent sudden output change from 0% to 100% duty cycle!
-			if((TIM1->CCR1-ENCODER_MODIFY_VALUE) < MAX_ENCODER_LIMIT)
-			{
-				TIM1->CCR1 = TIM1->CCR1 - ENCODER_MODIFY_VALUE;
-				TIM1->CCR2 = TIM1->CCR1 - ENCODER_MODIFY_VALUE;
-				TIM1->CCR3 = TIM1->CCR3 - ENCODER_MODIFY_VALUE;
-				TIM1->CCR4 = TIM1->CCR4 - ENCODER_MODIFY_VALUE;
-				TIM14->CCR1 = TIM14->CCR1 - ENCODER_MODIFY_VALUE;
-			}
+			TIM1->CCR1++;
+			TIM1->CCR2++;
+			TIM1->CCR3++;
+			TIM1->CCR4++;
+			TIM14->CCR1++;
 			previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
 		}
-		// encoder direction has changed from decreasing to increasing
 		else if( (!previous_encoder_dir) && (new_encoder_dir) )
 		{
-			TIM1->CCR1 = TIM1->CCR1 + ENCODER_MODIFY_VALUE;
-			TIM1->CCR2 = TIM1->CCR2 + ENCODER_MODIFY_VALUE;
-			TIM1->CCR3 = TIM1->CCR3 + ENCODER_MODIFY_VALUE;
-			TIM1->CCR4 = TIM1->CCR4 + ENCODER_MODIFY_VALUE;
-			TIM14->CCR1 = TIM14->CCR1 + ENCODER_MODIFY_VALUE;
-
+			TIM1->CCR1--;
+			TIM1->CCR2--;
+			TIM1->CCR3--;
+			TIM1->CCR4--;
+			TIM14->CCR1--;
 			previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
 		}
 

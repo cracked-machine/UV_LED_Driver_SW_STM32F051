@@ -58,6 +58,7 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define MAX_ENCODER_LIMIT 680
 #define STATUS_BLUE_Pin GPIO_PIN_0
 #define STATUS_BLUE_GPIO_Port GPIOA
 #define STATUS_GREEN_Pin GPIO_PIN_1
