@@ -109,7 +109,7 @@ int main(void)
   TIM1->CCR4 = 0x00;	//  191 75%
 
   TIM14->ARR = 0xFF;	// 	255
-  TIM14->CCR1 = MAX_ENCODER_LIMIT;	// 	31	12.5%
+  TIM14->CCR1 = 0x00;	// 	31	12.5%
 
   // LED OUTPUT
   HAL_GPIO_WritePin(GPIOA, STATUS_BLUE_Pin, GPIO_PIN_SET);
