@@ -10,6 +10,7 @@ RM := rm -rf
 -include sources.mk
 -include Drivers/STM32F0xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
+-include Core/Src/UvboxManager/subdir.mk
 -include Core/Src/subdir.mk
 -include subdir.mk
 -include objects.mk

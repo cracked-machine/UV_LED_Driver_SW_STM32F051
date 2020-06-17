@@ -1,0 +1,19 @@
+/*
+ * RotaryEncoder.c
+ *
+ *  Created on: Jun 17, 2020
+ *      Author: chris
+ */
+
+
+#include "RotaryEncoder.h"
+
+#include "UvboxManager.h"
+
+uint8_t previous_encoder_dir = 0;
+
+void RE_Setup()
+{
+	HAL_TIM_Base_Start(&htim2);
+	previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+}

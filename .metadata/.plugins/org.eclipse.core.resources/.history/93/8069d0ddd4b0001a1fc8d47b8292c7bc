@@ -1,0 +1,151 @@
+/*
+ * LedManager.c
+ *
+ *  Created on: Jun 17, 2020
+ *      Author: chris
+ */
+
+
+#include "LedManager.h"
+
+
+
+/*
+ *
+ *	@brief	Enable UV LEDs, disable Normal LEDs
+ *
+ *	@param None
+ *	@retval 	UVBOX_LidOpen,
+				UVBOX_LidClosed
+ *
+ */
+UVBOX_SystemStateTypedef LM_EnableUVMode()
+{
+	HAL_GPIO_WritePin(GPIOA, STATUS_GREEN_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOA, STATUS_RED_Pin, GPIO_PIN_SET);
+
+	UV_PWM_TIMER.Instance->CCR1 = MAX_UVLED_PWM_PERIOD;
+	UV_PWM_TIMER.Instance->CCR2 = MAX_UVLED_PWM_PERIOD;
+	UV_PWM_TIMER.Instance->CCR3 = MAX_UVLED_PWM_PERIOD;
+	UV_PWM_TIMER.Instance->CCR4 = MAX_UVLED_PWM_PERIOD;
+	TIM14->CCR1 = 0;
+
+	return UVBOX_evLidClosed;
+}
+
+/*
+ *
+ *	@brief Enable Normal LEDs, disable UV LEDs
+ *
+ *	@param None
+ *	@retval 	UVBOX_LidOpen,
+				UVBOX_LidClosed
+ *
+ */
+UVBOX_SystemStateTypedef LM_DisableUVMode()
+{
+	HAL_GPIO_WritePin(GPIOA, STATUS_GREEN_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOA, STATUS_RED_Pin, GPIO_PIN_RESET);
+
+	UV_PWM_TIMER.Instance->CCR1 = 0;
+	UV_PWM_TIMER.Instance->CCR2 = 0;
+	UV_PWM_TIMER.Instance->CCR3 = 0;
+	UV_PWM_TIMER.Instance->CCR4 = 0;
+	TIM14->CCR1 = MAX_LED_PWM_PERIOD;
+
+	return UVBOX_evLidOpened;
+}
+
+void LM_UpdateLeds()
+{
+	if(EM_getSystemState())
+	{
+	  	uint8_t new_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+
+	  	// encoder direction has changed from increasing to decreasing
+		if( (RE_getPrevEncoderDir()) && (!new_encoder_dir) )
+		{
+			UV_PWM_TIMER.Instance->CCR1 -= ENCODER_MODIFY_VALUE;
+			UV_PWM_TIMER.Instance->CCR2 -= ENCODER_MODIFY_VALUE;
+			UV_PWM_TIMER.Instance->CCR3 -= ENCODER_MODIFY_VALUE;
+			UV_PWM_TIMER.Instance->CCR4 -= ENCODER_MODIFY_VALUE;
+
+			// clamp lower range integer overflow to
+			// MAX_UVLED_PWM_PERIOD+1
+			if(	(UV_PWM_TIMER.Instance->CCR1 > MAX_UVLED_PWM_PERIOD+1) ||
+				(UV_PWM_TIMER.Instance->CCR2 > MAX_UVLED_PWM_PERIOD+1)	||
+				(UV_PWM_TIMER.Instance->CCR3 > MAX_UVLED_PWM_PERIOD+1) ||
+				(UV_PWM_TIMER.Instance->CCR4 > MAX_UVLED_PWM_PERIOD+1)
+				)
+			{
+				UV_PWM_TIMER.Instance->CCR1 = 0;
+				UV_PWM_TIMER.Instance->CCR2 = 0;
+				UV_PWM_TIMER.Instance->CCR3 = 0;
+				UV_PWM_TIMER.Instance->CCR4 = 0;
+			}
+
+			RE_setPrevEncoderDir( (TIM2->CR1 & TIM_CR1_DIR) );
+		}
+		// encoder direction has changed from decreasing to increasing
+		else if( (!RE_getPrevEncoderDir()) && (new_encoder_dir) )
+		{
+			UV_PWM_TIMER.Instance->CCR1 += ENCODER_MODIFY_VALUE;
+			UV_PWM_TIMER.Instance->CCR2 += ENCODER_MODIFY_VALUE;
+			UV_PWM_TIMER.Instance->CCR3 += ENCODER_MODIFY_VALUE;
+			UV_PWM_TIMER.Instance->CCR4 += ENCODER_MODIFY_VALUE;
+
+			// clamp upper range integer overflow to
+			// MAX_UVLED_PWM_PERIOD
+			if(	(UV_PWM_TIMER.Instance->CCR1 > MAX_UVLED_PWM_PERIOD) ||
+				(UV_PWM_TIMER.Instance->CCR2 > MAX_UVLED_PWM_PERIOD)	||
+				(UV_PWM_TIMER.Instance->CCR3 > MAX_UVLED_PWM_PERIOD) ||
+				(UV_PWM_TIMER.Instance->CCR4 > MAX_UVLED_PWM_PERIOD)
+				)
+			{
+				UV_PWM_TIMER.Instance->CCR1 = MAX_UVLED_PWM_PERIOD;
+				UV_PWM_TIMER.Instance->CCR2 = MAX_UVLED_PWM_PERIOD;
+				UV_PWM_TIMER.Instance->CCR3 = MAX_UVLED_PWM_PERIOD;
+				UV_PWM_TIMER.Instance->CCR4 = MAX_UVLED_PWM_PERIOD;
+			}
+
+			RE_setPrevEncoderDir( (TIM2->CR1 & TIM_CR1_DIR) );
+		}
+
+	}
+	else
+	{
+	  	uint8_t new_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+
+	  	// encoder direction has changed from increasing to decreasing
+		if( (RE_getPrevEncoderDir()) && (!new_encoder_dir) )
+		{
+			LED_PWM_TIMER.Instance->CCR1 -= ENCODER_MODIFY_VALUE;
+
+			// clamp lower range integer overflow to
+			// MAX_UVLED_PWM_PERIOD+1
+			if(	(LED_PWM_TIMER.Instance->CCR1 > MAX_LED_PWM_PERIOD+1) )
+			{
+				LED_PWM_TIMER.Instance->CCR1 = 0;
+			}
+
+			RE_setPrevEncoderDir( (TIM2->CR1 & TIM_CR1_DIR) );
+		}
+		// encoder direction has changed from decreasing to increasing
+		else if( (!RE_getPrevEncoderDir()) && (new_encoder_dir) )
+		{
+			LED_PWM_TIMER.Instance->CCR1 += ENCODER_MODIFY_VALUE;
+
+			// clamp upper range integer overflow to
+			// MAX_UVLED_PWM_PERIOD
+			if(	(TIM14->CCR1 > MAX_LED_PWM_PERIOD) )
+			{
+				TIM14->CCR1 = MAX_LED_PWM_PERIOD;
+			}
+
+			RE_setPrevEncoderDir( (TIM2->CR1 & TIM_CR1_DIR) );
+		}
+
+	}
+}
+
+

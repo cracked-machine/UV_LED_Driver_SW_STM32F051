@@ -1,0 +1,14 @@
+/*
+ * RotaryEncoder.h
+ *
+ *  Created on: Jun 17, 2020
+ *      Author: chris
+ */
+
+#ifndef SRC_UVBOXMANAGER_ROTARYENCODER_H_
+#define SRC_UVBOXMANAGER_ROTARYENCODER_H_
+
+void RE_Setup();
+void RE_UpdateLeds();
+
+#endif /* SRC_UVBOXMANAGER_ROTARYENCODER_H_ */

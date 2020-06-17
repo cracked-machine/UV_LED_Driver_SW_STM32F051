@@ -1,0 +1,14 @@
+/*
+ * UVBOX_Manager.c
+ *
+ *  Created on: Jun 17, 2020
+ *      Author: chris
+ */
+
+
+#include "uvbox_Manager.h"
+
+void UVBOX_Setup()
+{
+
+}

@@ -1,0 +1,26 @@
+/*
+ * UVBOX_Manager.h
+ *
+ *  Created on: Jun 17, 2020
+ *      Author: chris
+ */
+
+#ifndef SRC_UVBOX_MANAGER_UVBOX_MANAGER_H_
+#define SRC_UVBOX_MANAGER_UVBOX_MANAGER_H_
+
+
+#define MAX_UVLED_PWM_PERIOD	255
+#define MAX_LED_PWM_PERIOD		255
+
+typedef enum
+{
+	UVBOX_LIDOPEN = 0x0,
+	UVBOX_LIDCLOSED
+
+} UVBOX_LidStatusTypedef;
+
+UVBOX_LidStatusTypedef eLidStatus;
+
+void UVBOX_Setup();
+
+#endif /* SRC_UVBOX_MANAGER_UVBOX_MANAGER_H_ */

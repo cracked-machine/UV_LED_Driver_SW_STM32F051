@@ -1,0 +1,3 @@
+RotaryEncoder.c:25:6:RE_Setup	8	static
+RotaryEncoder.c:40:25:RE_getPrevEncoderDir	8	static
+RotaryEncoder.c:54:6:RE_setPrevEncoderDir	16	static

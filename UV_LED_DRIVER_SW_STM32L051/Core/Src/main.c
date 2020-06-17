@@ -25,7 +25,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "UvboxManager.h"
+#include "LedManager.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -35,7 +36,8 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define ENCODER_MODIFY_VALUE	1
+
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -46,6 +48,9 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+
+// default lid status
+
 
 /* USER CODE END PV */
 
@@ -94,32 +99,7 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
 
-  // PWM OUTPUTS
-  HAL_TIM_Base_Start(&htim17);
-  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
-  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
-  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
-  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_4);
-  HAL_TIM_PWM_Start(&htim14, TIM_CHANNEL_1);
-
-  TIM1->ARR = 0xFF;		// 	255
-  TIM1->CCR1 = 0x00;	// 	31	12.5%
-  TIM1->CCR2 = 0x00;	//	63	25%
-  TIM1->CCR3 = 0x00;	//	127 50%
-  TIM1->CCR4 = 0x00;	//  191 75%
-
-  TIM14->ARR = 0xFF;	// 	255
-  TIM14->CCR1 = MAX_ENCODER_LIMIT;	// 	31	12.5%
-
-  // LED OUTPUT
-  HAL_GPIO_WritePin(GPIOA, STATUS_BLUE_Pin, GPIO_PIN_SET);
-  HAL_GPIO_WritePin(GPIOA, STATUS_RED_Pin, GPIO_PIN_RESET);
-  HAL_GPIO_WritePin(GPIOA, STATUS_GREEN_Pin, GPIO_PIN_SET);
-
-  // rotary encoder
-  HAL_TIM_Base_Start(&htim2);
-  uint8_t previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
-
+  UM_Setup();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -127,41 +107,7 @@ int main(void)
   while (1)
   {
 
-
-	  	uint8_t new_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
-
-	  	// encoder direction has changed from increasing to decreasing
-		if( (previous_encoder_dir) && (!new_encoder_dir) )
-		{
-			// prevent the CCR registers from rolling around to value above MAX_ENCODER_LIMIT
-			// This will prevent sudden output change from 0% to 100% duty cycle!
-			if((TIM1->CCR1-ENCODER_MODIFY_VALUE) < MAX_ENCODER_LIMIT)
-			{
-				TIM1->CCR1 = TIM1->CCR1 - ENCODER_MODIFY_VALUE;
-				TIM1->CCR2 = TIM1->CCR1 - ENCODER_MODIFY_VALUE;
-				TIM1->CCR3 = TIM1->CCR3 - ENCODER_MODIFY_VALUE;
-				TIM1->CCR4 = TIM1->CCR4 - ENCODER_MODIFY_VALUE;
-				TIM14->CCR1 = TIM14->CCR1 - ENCODER_MODIFY_VALUE;
-			}
-			previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
-		}
-		// encoder direction has changed from decreasing to increasing
-		else if( (!previous_encoder_dir) && (new_encoder_dir) )
-		{
-			TIM1->CCR1 = TIM1->CCR1 + ENCODER_MODIFY_VALUE;
-			TIM1->CCR2 = TIM1->CCR2 + ENCODER_MODIFY_VALUE;
-			TIM1->CCR3 = TIM1->CCR3 + ENCODER_MODIFY_VALUE;
-			TIM1->CCR4 = TIM1->CCR4 + ENCODER_MODIFY_VALUE;
-			TIM14->CCR1 = TIM14->CCR1 + ENCODER_MODIFY_VALUE;
-
-			previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
-		}
-
-
-
-
-
-
+	  LM_UpdatePwm();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

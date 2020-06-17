@@ -1,0 +1,103 @@
+/*
+ * EventManager.c
+ *
+ *  Created on: Jun 17, 2020
+ *      Author: chris
+ */
+
+#include "EventManager.h"
+#include "UvboxManager.h"
+
+UVBOX_SystemStateTypedef _DisableUVMode();
+UVBOX_SystemStateTypedef _EnableUVMode();
+
+UVBOX_SystemStateTypedef eTheSystemState = UVBOX_LidOpen;
+
+
+/*
+ *
+ *	@brief return the system lid status
+ *
+ *	@param None
+ *	@retval UVBOX_LidOpen,
+			UVBOX_LidClosed
+ *
+ */
+UVBOX_SystemStateTypedef 	EM_getSystemState()
+{
+	return eTheSystemState;
+}
+
+
+/*
+ *
+ *	@brief	Process new event and update system state
+ *
+ *	@param 	UVBOX_evLidOpened,
+			UVBOX_evLidClosed,
+ *	@retval None
+ *
+ */
+void EM_ProcessEvent(UVBOX_SystemEventsTypedef newEvent)
+{
+	switch(eTheSystemState)
+	{
+
+		case UVBOX_LidOpen:
+
+			switch(newEvent)
+			{
+				case UVBOX_evLidClosed:
+					eTheSystemState = _EnableUVMode();
+					break;
+
+				default:
+					break;
+			}
+
+			break;
+
+		case UVBOX_LidClosed:
+
+			switch(newEvent)
+			{
+				case UVBOX_evLidOpened:
+					eTheSystemState = _DisableUVMode();
+					break;
+
+				default:
+					break;
+			}
+
+			break;
+	}
+}
+
+UVBOX_SystemStateTypedef _EnableUVMode()
+{
+	HAL_GPIO_WritePin(GPIOA, STATUS_GREEN_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOA, STATUS_RED_Pin, GPIO_PIN_SET);
+
+	TIM1->CCR1 = MAX_UVLED_PWM_PERIOD;
+	TIM1->CCR2 = MAX_UVLED_PWM_PERIOD;
+	TIM1->CCR3 = MAX_UVLED_PWM_PERIOD;
+	TIM1->CCR4 = MAX_UVLED_PWM_PERIOD;
+	TIM14->CCR1 = 0;
+
+	return UVBOX_evLidClosed;
+}
+
+UVBOX_SystemStateTypedef _DisableUVMode()
+{
+	HAL_GPIO_WritePin(GPIOA, STATUS_GREEN_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOA, STATUS_RED_Pin, GPIO_PIN_RESET);
+
+	TIM1->CCR1 = 0;
+	TIM1->CCR2 = 0;
+	TIM1->CCR3 = 0;
+	TIM1->CCR4 = 0;
+	TIM14->CCR1 = MAX_LED_PWM_PERIOD;
+
+	return UVBOX_evLidOpened;
+}
+

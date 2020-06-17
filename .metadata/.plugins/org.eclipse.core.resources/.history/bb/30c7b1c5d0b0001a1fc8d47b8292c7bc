@@ -1,0 +1,16 @@
+/*
+ * LedManager.h
+ *
+ *  Created on: Jun 17, 2020
+ *      Author: chris
+ */
+
+#ifndef SRC_UVBOXMANAGER_LEDMANAGER_H_
+#define SRC_UVBOXMANAGER_LEDMANAGER_H_
+
+#include "UvboxManager.h"
+
+UVBOX_SystemStateTypedef LM_DisableUVMode();
+UVBOX_SystemStateTypedef LM_EnableUVMode();
+
+#endif /* SRC_UVBOXMANAGER_LEDMANAGER_H_ */

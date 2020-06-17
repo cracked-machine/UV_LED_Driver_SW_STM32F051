@@ -1,0 +1,25 @@
+/*
+ * EventManager.h
+ *
+ *  Created on: Jun 17, 2020
+ *      Author: chris
+ */
+
+#ifndef SRC_UVBOXMANAGER_EVENTMANAGER_H_
+#define SRC_UVBOXMANAGER_EVENTMANAGER_H_
+
+typedef enum
+{
+	UVBOX_LidOpen,
+	UVBOX_LidClosed
+
+} UVBOX_SystemStateTypedef;
+
+typedef enum
+{
+	UVBOX_evLidOpened,
+	UVBOX_evLidClosed,
+} UVBOX_SystemEventsTypedef;
+
+
+#endif /* SRC_UVBOXMANAGER_EVENTMANAGER_H_ */

@@ -1,0 +1,2 @@
+EventManager.c:24:27:EM_getSystemState	8	static
+EventManager.c:39:6:EM_ProcessEvent	16	static

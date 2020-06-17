@@ -1,0 +1,6 @@
+LedManager.c:29:26:LM_EnableUVMode	8	static
+LedManager.c:51:26:LM_DisableUVMode	8	static
+LedManager.c:74:6:_UpdateUvPwm	16	static
+LedManager.c:136:6:_UpdateLedPwm	16	static
+LedManager.c:176:6:LM_UpdatePwm	8	static
+LedManager.c:198:6:LM_SetStatusLed	16	static

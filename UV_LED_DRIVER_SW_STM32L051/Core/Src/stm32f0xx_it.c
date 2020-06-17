@@ -23,6 +23,7 @@
 #include "stm32f0xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "UvboxManager.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -42,8 +43,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-uint16_t last_interrupt_time = 0;
-#define MAX_DEBOUNCE_DELAY 175
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -146,18 +146,7 @@ void SysTick_Handler(void)
 void EXTI0_1_IRQHandler(void)
 {
   /* USER CODE BEGIN EXTI0_1_IRQn 0 */
-	uint16_t interrupt_time = TIM17->CNT;
-	if ((interrupt_time - last_interrupt_time) > MAX_DEBOUNCE_DELAY)
-	{
-		HAL_GPIO_TogglePin(GPIOA, STATUS_GREEN_Pin);
-		HAL_GPIO_TogglePin(GPIOA, STATUS_RED_Pin);
-		TIM1->CCR1 ^= MAX_ENCODER_LIMIT;
-		TIM1->CCR2 ^= MAX_ENCODER_LIMIT;
-		TIM1->CCR3 ^= MAX_ENCODER_LIMIT;
-		TIM1->CCR4 ^= MAX_ENCODER_LIMIT;
-		TIM14->CCR1 ^= MAX_ENCODER_LIMIT;
-	}
-	last_interrupt_time = interrupt_time;
+	UM_EXTI0_1_IRQHandler();
   /* USER CODE END EXTI0_1_IRQn 0 */
   HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_0);
   /* USER CODE BEGIN EXTI0_1_IRQn 1 */

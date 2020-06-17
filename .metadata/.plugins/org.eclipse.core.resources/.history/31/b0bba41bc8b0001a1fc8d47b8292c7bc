@@ -1,0 +1,14 @@
+/*
+ * RotaryEncoder.c
+ *
+ *  Created on: Jun 17, 2020
+ *      Author: chris
+ */
+
+
+#include "RotaryEncoder.h"
+
+void RE_Setup()
+{
+	previous_encoder_dir = (TIM2->CR1 & TIM_CR1_DIR);
+}
