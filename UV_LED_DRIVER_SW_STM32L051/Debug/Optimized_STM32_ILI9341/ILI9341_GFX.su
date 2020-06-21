@@ -1,0 +1,12 @@
+ILI9341_GFX.c:61:6:ILI9341_Draw_Wave	32	static
+ILI9341_GFX.c:99:7:ILI9341_Draw_Arrow	32	static
+ILI9341_GFX.c:138:6:ILI9341_Draw_Hollow_Circle	48	static
+ILI9341_GFX.c:180:6:ILI9341_Draw_Filled_Circle	56	static
+ILI9341_GFX.c:225:6:ILI9341_Draw_Hollow_Rectangle_Coord	24	static
+ILI9341_GFX.c:263:6:ILI9341_Draw_Bordered_Filled_Rectangle_Coord	40	static
+ILI9341_GFX.c:325:6:ILI9341_Draw_Bordered_Hollow_Rectangle_Coord	32	static
+ILI9341_GFX.c:372:6:ILI9341_Draw_Char	48	static
+ILI9341_GFX.c:439:6:ILI9341_Draw_Text	48	static
+ILI9341_GFX.c:462:6:ILI9341_Draw_Image	232	dynamic
+ILI9341_GFX.c:560:6:ILI9341_Draw_ImageF	232	dynamic
+ILI9341_GFX.c:656:6:ILI9341_FillScreenGradient	24	static

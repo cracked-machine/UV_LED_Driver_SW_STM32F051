@@ -9,10 +9,9 @@
 #include "LedManager.h"
 #include "RotaryEncoder.h"
 #include "UvboxManager.h"
+#include "ILI9341_STM32_Driver.h"
 
 
-#define MAX_UVLED_PWM_PERIOD	255
-#define MAX_LED_PWM_PERIOD		255
 
 
 void LM_SetStatusLed(UVBOX_StatusLedTypeDef new_status);
@@ -36,7 +35,10 @@ UVBOX_SystemStateTypedef LM_EnableUVMode()
 	UV_PWM_TIMER.Instance->CCR4 = MAX_UVLED_PWM_PERIOD;
 	LED_PWM_TIMER.Instance->CCR1 = 0;
 
-	return UVBOX_evLidClosed;
+
+	TM_StartTimer();
+
+	return UVBOX_LidClosed;
 }
 
 /*
@@ -58,7 +60,10 @@ UVBOX_SystemStateTypedef LM_DisableUVMode()
 	UV_PWM_TIMER.Instance->CCR4 = 0;
 	LED_PWM_TIMER.Instance->CCR1 = MAX_LED_PWM_PERIOD;
 
-	return UVBOX_evLidOpened;
+	TM_StopTimer();
+	TM_ResetTimer();
+
+	return UVBOX_LidOpen;
 }
 
 
@@ -197,6 +202,7 @@ void LM_UpdatePwm()
  */
 void LM_SetStatusLed(UVBOX_StatusLedTypeDef new_status)
 {
+/*
 	switch(new_status)
 	{
 	case UVBOX_StatusLedGreen:
@@ -215,4 +221,5 @@ void LM_SetStatusLed(UVBOX_StatusLedTypeDef new_status)
 		  HAL_GPIO_WritePin(GPIOA, STATUS_BLUE_Pin, GPIO_PIN_RESET);
 		break;
 	}
+*/
 }

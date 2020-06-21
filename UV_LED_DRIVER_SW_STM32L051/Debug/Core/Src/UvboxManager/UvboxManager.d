@@ -25,10 +25,17 @@ Core/Src/UvboxManager/UvboxManager.o: \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h \
- ../Core/Inc/gpio.h ../Core/Src/UvboxManager/RotaryEncoder.h \
+ ../Core/Inc/gpio.h ../Core/Src/UvboxManager/TimeoutManager.h \
  ../Core/Src/UvboxManager/EventManager.h \
+ /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h \
+ /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h \
+ /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.h \
+ /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.h \
+ ../Core/Src/UvboxManager/RotaryEncoder.h \
  ../Core/Src/UvboxManager/LedManager.h
 
 ../Core/Src/UvboxManager/UvboxManager.h:
@@ -85,14 +92,28 @@ Core/Src/UvboxManager/UvboxManager.o: \
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h:
 
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h:
+
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h:
+
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h:
 
 ../Core/Inc/gpio.h:
 
-../Core/Src/UvboxManager/RotaryEncoder.h:
+../Core/Src/UvboxManager/TimeoutManager.h:
 
 ../Core/Src/UvboxManager/EventManager.h:
+
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:
+
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h:
+
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.h:
+
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.h:
+
+../Core/Src/UvboxManager/RotaryEncoder.h:
 
 ../Core/Src/UvboxManager/LedManager.h:

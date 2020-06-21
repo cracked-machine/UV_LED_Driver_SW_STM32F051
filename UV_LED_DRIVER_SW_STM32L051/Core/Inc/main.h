@@ -60,16 +60,13 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define MAX_ENCODER_LIMIT 255
-#define STATUS_BLUE_Pin GPIO_PIN_0
-#define STATUS_BLUE_GPIO_Port GPIOA
-#define STATUS_GREEN_Pin GPIO_PIN_1
-#define STATUS_GREEN_GPIO_Port GPIOA
-#define STATUS_RED_Pin GPIO_PIN_2
-#define STATUS_RED_GPIO_Port GPIOA
-#define ENABLE_LED_Pin GPIO_PIN_0
-#define ENABLE_LED_GPIO_Port GPIOB
-#define ENABLE_LED_EXTI_IRQn EXTI0_1_IRQn
+#define MAX_ENCODER_LIMIT 680
+#define CS_Pin GPIO_PIN_3
+#define CS_GPIO_Port GPIOA
+#define DC_Pin GPIO_PIN_4
+#define DC_GPIO_Port GPIOA
+#define RST_Pin GPIO_PIN_0
+#define RST_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
