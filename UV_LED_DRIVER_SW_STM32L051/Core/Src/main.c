@@ -101,6 +101,8 @@ int main(void)
   MX_SPI1_Init();
   MX_TIM2_Init();
   MX_TIM3_Init();
+  MX_TIM16_Init();
+  MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
 
   UM_Setup();
@@ -117,6 +119,9 @@ int main(void)
 
 	  LM_UpdatePwm();
 	  UM_UpdateDisplay();
+	  char enc_cnt[20];
+	  snprintf(enc_cnt, sizeof(enc_cnt), "%lu", LED_PWM_TIMER.Instance->CCR1);
+	  ILI9341_Draw_Text(enc_cnt, 10, 200, WHITE, 2, BLACK);
 
 
     /* USER CODE END WHILE */

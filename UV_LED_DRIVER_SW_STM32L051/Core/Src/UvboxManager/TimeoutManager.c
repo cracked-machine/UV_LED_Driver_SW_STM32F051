@@ -23,6 +23,13 @@ void TM_UserIncrementTimer()
 	timer_count += 10;
 }
 
+void TM_UserDecrementTimer()
+{
+	user_defined_timeout -= 10;
+	timer_count -= 10;
+}
+
+
 void TM_DecrementTimer()
 {
 	timer_count--;

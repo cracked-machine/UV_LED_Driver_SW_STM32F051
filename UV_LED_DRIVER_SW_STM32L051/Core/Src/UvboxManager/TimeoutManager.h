@@ -18,5 +18,6 @@ void TM_StartTimer();
 void TM_StopTimer();
 
 void TM_UserIncrementTimer();
+void TM_UserDecrementTimer();
 
 #endif /* SRC_UVBOXMANAGER_TIMEOUTMANAGER_H_ */

@@ -12,7 +12,7 @@
 #include "ILI9341_STM32_Driver.h"
 
 
-
+uint32_t previous_encoder_value = 0;
 
 void LM_SetStatusLed(UVBOX_StatusLedTypeDef new_status);
 
@@ -140,7 +140,19 @@ void _UpdateUvPwm(UVBOX_EncoderDirTypeDef new_encoder_dir)
  */
 void _UpdateLedPwm(UVBOX_EncoderDirTypeDef new_encoder_dir)
 {
-  	// encoder direction has changed from increasing to decreasing
+	uint32_t new_encoder_value = ROTARY_ENCODER.Instance->CNT;
+	if(new_encoder_value < previous_encoder_value)
+	{
+		LED_PWM_TIMER.Instance->CCR1 -= ENCODER_STEP;
+	}
+	else if(new_encoder_value > previous_encoder_value)
+	{
+		LED_PWM_TIMER.Instance->CCR1 += ENCODER_STEP;
+	}
+
+	previous_encoder_value = new_encoder_value;
+/*
+	// encoder direction has changed from increasing to decreasing
 	if( (RE_getPrevEncoderDir()) && (!new_encoder_dir) )
 	{
 		LED_PWM_TIMER.Instance->CCR1 -= ENCODER_STEP;
@@ -168,6 +180,8 @@ void _UpdateLedPwm(UVBOX_EncoderDirTypeDef new_encoder_dir)
 
 		RE_setPrevEncoderDir( (ROTARY_ENCODER.Instance->CR1 & TIM_CR1_DIR) );
 	}
+
+	*/
 }
 
 /*
@@ -186,7 +200,7 @@ void LM_UpdatePwm()
 	}
 	else
 	{
-	  	_UpdateLedPwm( ROTARY_ENCODER.Instance->CR1 & TIM_CR1_DIR );
+		_UpdateLedPwm( ROTARY_ENCODER.Instance->CR1 & TIM_CR1_DIR );
 	}
 }
 

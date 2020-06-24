@@ -31,6 +31,9 @@ void UM_DisplayExpiredMsg()
 {
 	ILI9341_Fill_Screen(BLACK);
 	ILI9341_Draw_Text("STOPPED", 10, 120, STOPTEXT, 7, BGCOLOUR);
+	BUZZER_PWM.Instance->PSC = 256;
+	HAL_Delay(1000);
+	BUZZER_PWM.Instance->PSC = 0;
 }
 
 /*
@@ -92,6 +95,7 @@ void UM_Setup()
 	  HAL_TIM_PWM_Start( &UV_PWM_TIMER, TIM_CHANNEL_3 );
 	  HAL_TIM_PWM_Start( &UV_PWM_TIMER, TIM_CHANNEL_4 );
 	  HAL_TIM_PWM_Start( &LED_PWM_TIMER, TIM_CHANNEL_1 );
+	  HAL_TIM_PWM_Start( &BUZZER_PWM, TIM_CHANNEL_1);
 
 	  UV_PWM_TIMER.Instance->ARR	= 0xFF;		// 	255
 	  UV_PWM_TIMER.Instance->CCR1 	= 0x00;
@@ -101,6 +105,10 @@ void UM_Setup()
 
 	  LED_PWM_TIMER.Instance->ARR  	= 0xFF;		// 	255
 	  LED_PWM_TIMER.Instance->CCR1 	= MAX_LED_PWM_PERIOD;
+
+	  BUZZER_PWM.Instance->ARR = 0xFF;
+	  BUZZER_PWM.Instance->CCR1 = 127;
+	  BUZZER_PWM.Instance->PSC = 0;
 
 	  // debounce timer
 	  HAL_TIM_Base_Start( &DEBOUNCE_TIMER );
@@ -138,10 +146,21 @@ void UM_EXTI0_1_IRQHandler()
 		}
 		else
 		{
-			TM_UserIncrementTimer();
+
+			if( (EXTI->PR & EXTI_PR_PR0) == EXTI_PR_PR0)
+			{
+				TM_UserDecrementTimer();
+			}
+			else if( (EXTI->PR & EXTI_PR_PR1) == EXTI_PR_PR1)
+			{
+				TM_UserIncrementTimer();
+			}
+
 		}
 	}
 	UM_SetLastDebounceTime(debounce_interrupt_time);
+
+
 }
 
 /*

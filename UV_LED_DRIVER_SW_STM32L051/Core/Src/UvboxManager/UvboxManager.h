@@ -23,7 +23,8 @@
 #define LED_PWM_TIMER 	htim14
 #define ROTARY_ENCODER 	htim2
 #define DEBOUNCE_TIMER 	htim17
-#define EXPOSE_TIMER	htim3
+#define EXPOSE_TIMER	htim6
+#define BUZZER_PWM		htim3
 
 #define MAX_DEBOUNCE_DELAY 175
 

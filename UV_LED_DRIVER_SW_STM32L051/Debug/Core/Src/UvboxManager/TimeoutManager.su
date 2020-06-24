@@ -1,7 +1,8 @@
 TimeoutManager.c:15:6:TM_ResetTimer	8	static
 TimeoutManager.c:20:6:TM_UserIncrementTimer	8	static
-TimeoutManager.c:26:6:TM_DecrementTimer	8	static
-TimeoutManager.c:33:10:TM_GetTimerCount	8	static
-TimeoutManager.c:38:6:TM_CheckTimer	8	static
-TimeoutManager.c:46:6:TM_StartTimer	8	static
-TimeoutManager.c:53:6:TM_StopTimer	8	static
+TimeoutManager.c:26:6:TM_UserDecrementTimer	8	static
+TimeoutManager.c:33:6:TM_DecrementTimer	8	static
+TimeoutManager.c:40:10:TM_GetTimerCount	8	static
+TimeoutManager.c:45:6:TM_CheckTimer	8	static
+TimeoutManager.c:53:6:TM_StartTimer	8	static
+TimeoutManager.c:60:6:TM_StopTimer	8	static

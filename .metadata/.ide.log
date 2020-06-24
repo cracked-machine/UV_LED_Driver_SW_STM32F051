@@ -6532,3 +6532,1544 @@
 2020-06-21 21:21:58,972 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1891mS.
 2020-06-21 21:21:58,973 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
 2020-06-21 21:21:58,973 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-23 19:36:35,456 [INFO] Activator:176 - 
+
+
+2020-06-23 19:36:35,459 [INFO] Activator:177 - !SESSION log4j initialized
+2020-06-23 20:27:03,024 [INFO] ApplicationProperties:181 - Using Application install path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303
+2020-06-23 20:27:03,041 [INFO] DbMcusXml:72 - Set database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//mcu/
+2020-06-23 20:27:03,046 [INFO] DbBoardsPdsc:54 - Set plugin database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/boardmanager/
+2020-06-23 20:27:03,047 [INFO] DbMcus:235 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-23 20:27:03,047 [INFO] DbBoards:232 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-23 20:27:03,053 [INFO] DbMcusAds:85 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,054 [INFO] DbMcusDocs:108 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,056 [INFO] DbMcusJson:61 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,057 [INFO] DbBoardsDocs:97 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,058 [INFO] DbBoardsJson:51 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,276 [INFO] CrossReferenceDbSqlite:197 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/cs/
+2020-06-23 20:27:03,404 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-06-23 20:27:03,501 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_202
+2020-06-23 20:27:03,501 [INFO] DbMcusXml:72 - Set database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//mcu/
+2020-06-23 20:27:03,502 [INFO] DbBoardsPdsc:54 - Set plugin database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/boardmanager/
+2020-06-23 20:27:03,502 [INFO] DbMcus:235 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-23 20:27:03,503 [INFO] DbBoards:232 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-23 20:27:03,503 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,504 [INFO] DbMcusAds:85 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,504 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,504 [INFO] DbMcusDocs:108 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,504 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,505 [INFO] DbMcusJson:61 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,505 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,505 [INFO] DbBoardsDocs:97 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,505 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,506 [INFO] DbBoardsJson:51 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,506 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,506 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,506 [INFO] CrossReferenceDbSqlite:197 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/cs/
+2020-06-23 20:27:03,606 [INFO] MainPanel:181 - HeapMemory: 351272960
+2020-06-23 20:27:03,719 [INFO] DbMcusXml:72 - Set database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//mcu/
+2020-06-23 20:27:03,720 [INFO] DbBoardsPdsc:54 - Set plugin database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/boardmanager/
+2020-06-23 20:27:03,720 [INFO] DbMcus:235 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-23 20:27:03,721 [INFO] DbBoards:232 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-23 20:27:03,722 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,722 [INFO] DbMcusAds:85 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,722 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,723 [INFO] DbMcusDocs:108 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,723 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,723 [INFO] DbMcusJson:61 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,723 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,724 [INFO] DbBoardsDocs:97 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,724 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,724 [INFO] DbBoardsJson:51 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-23 20:27:03,724 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,725 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-23 20:27:03,725 [INFO] CrossReferenceDbSqlite:197 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/cs/
+2020-06-23 20:27:03,751 [INFO] ApplicationProperties:181 - Using Application install path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303
+2020-06-23 20:27:03,753 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2020-06-23 20:27:03,754 [INFO] PluginManage:292 - Check plugin analytics
+2020-06-23 20:27:03,763 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-06-23 20:27:03,763 [INFO] PluginManage:292 - Check plugin clock
+2020-06-23 20:27:03,780 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-06-23 20:27:03,782 [INFO] PluginManage:292 - Check plugin ddr
+2020-06-23 20:27:03,786 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-06-23 20:27:03,786 [INFO] PluginManage:292 - Check plugin filemanager
+2020-06-23 20:27:03,946 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-06-23 20:27:03,946 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-06-23 20:27:03,957 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-06-23 20:27:03,957 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-06-23 20:27:03,968 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-06-23 20:27:03,969 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-06-23 20:27:03,995 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-06-23 20:27:03,996 [INFO] PluginManage:292 - Check plugin power
+2020-06-23 20:27:04,007 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-06-23 20:27:04,008 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-06-23 20:27:04,026 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-06-23 20:27:04,026 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-06-23 20:27:04,079 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 23 ms. number of Sw pack : 19
+2020-06-23 20:27:04,099 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-06-23 20:27:04,100 [INFO] PluginManage:292 - Check plugin tools
+2020-06-23 20:27:04,102 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-06-23 20:27:04,103 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-06-23 20:27:04,104 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2020-06-23 20:27:04,105 [INFO] PluginManage:292 - Check plugin updater
+2020-06-23 20:27:04,122 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-06-23 20:27:04,123 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-06-23 20:27:04,288 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-23 20:27:04,364 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,364 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-06-23 20:27:04,370 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,371 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-06-23 20:27:04,372 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,373 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-06-23 20:27:04,375 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,375 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-06-23 20:27:04,378 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,378 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-06-23 20:27:04,380 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,380 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-06-23 20:27:04,382 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,383 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-06-23 20:27:04,384 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,384 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-06-23 20:27:04,391 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,392 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-06-23 20:27:04,396 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,396 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-06-23 20:27:04,399 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,400 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-06-23 20:27:04,405 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,405 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-06-23 20:27:04,407 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,407 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-06-23 20:27:04,411 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,411 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-06-23 20:27:04,413 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,414 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-06-23 20:27:04,416 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,416 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-06-23 20:27:04,421 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,421 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-06-23 20:27:04,425 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,425 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-06-23 20:27:04,430 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,431 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-06-23 20:27:04,435 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,436 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-06-23 20:27:04,437 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,437 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-06-23 20:27:04,438 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,439 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-06-23 20:27:04,443 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,443 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-06-23 20:27:04,445 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,446 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-06-23 20:27:04,453 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,456 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-06-23 20:27:04,459 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,459 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-06-23 20:27:04,462 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,462 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-06-23 20:27:04,466 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,466 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-06-23 20:27:04,468 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,468 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-06-23 20:27:04,470 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,470 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-06-23 20:27:04,472 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,473 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-06-23 20:27:04,474 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,475 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-06-23 20:27:04,477 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,477 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-06-23 20:27:04,482 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,483 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-06-23 20:27:04,484 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,485 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-06-23 20:27:04,487 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,487 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-06-23 20:27:04,489 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:04,490 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-06-23 20:27:04,749 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-06-23 20:27:04,749 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2020-06-23 20:27:04,938 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-06-23 20:27:05,106 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-06-23 20:27:05,110 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-23 20:27:05,111 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-06-23 20:27:05,115 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-06-23 20:27:05,115 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.linux64_1.3.0.202002181050/tools/bin
+2020-06-23 20:27:05,119 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.linux64_1.3.0.202002181050/tools/bin/STM32_Programmer_CLI -l
+2020-06-23 20:27:05,219 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.linux64_1.3.0.202002181050/tools/bin
+2020-06-23 20:27:05,224 [INFO] Updater:886 - Updater Version found : 5.6.1
+2020-06-23 20:27:05,253 [INFO] ApplicationProperties:181 - Using Application install path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303
+2020-06-23 20:27:05,520 [INFO] MainUpdater:2230 - connection check result : 10
+2020-06-23 20:27:05,520 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2020-06-23 20:27:05,521 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-23 20:27:05,574 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-06-23 20:27:05,727 [INFO] MainUpdater:2230 - connection check result : 10
+2020-06-23 20:27:05,817 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-23 20:27:05,818 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-23 20:27:05,821 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-23 20:27:05,822 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 271537144 Bytes (351272960)
+2020-06-23 20:27:05,823 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-23 20:27:05,823 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-23 20:27:05,823 [INFO] OpenFileManager:274 - Change cursor
+2020-06-23 20:27:07,098 [ERROR] Engine:1314 - Problem during Copy of File ARM.CMSIS.5.6.0_Modes.xml
+2020-06-23 20:27:07,098 [ERROR] Engine:162 - cannot copy files for sw pack name : ARM.CMSIS.5.6.0
+2020-06-23 20:27:07,098 [ERROR] Engine:1314 - Problem during Copy of File ARM.CMSIS.5.6.0_Configs.xml
+2020-06-23 20:27:07,098 [ERROR] Engine:170 - cannot copy files for sw pack name : ARM.CMSIS.5.6.0
+2020-06-23 20:27:07,111 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-06-23 20:27:07,195 [ERROR] ThirdParty:759 - Integrity check failed: pack='[ARM.CMSIS.5.6.0]' / reason: 
+2020-06-23 20:27:07,216 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 11 ms. number of Sw pack : 19
+2020-06-23 20:27:07,417 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-06-23 20:27:07,463 [INFO] IntegrityCheckThread:98 - End integrity checks thread
+2020-06-23 20:27:09,128 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 176900528 Bytes (351272960)
+2020-06-23 20:27:09,129 [INFO] DbMcusXml:110 - Load MCU database from /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//mcu/families.xml
+2020-06-23 20:27:10,108 [INFO] DbMcusJson:90 - JSON generation date=Wed Jun 03 16:10:31 BST 2020 (1591197031)
+2020-06-23 20:27:11,189 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-06-23 20:27:11,189 [INFO] ApiDb:158 - Load user favorites file /home/chris/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2020-06-23 20:27:11,189 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-06-23 20:27:11,189 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2020-06-23 20:27:11,208 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 9 ms. number of Sw pack : 19
+2020-06-23 20:27:11,226 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776214022]
+2020-06-23 20:27:11,226 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1580776213349
+2020-06-23 20:27:11,227 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776216598, 1580776214105]
+2020-06-23 20:27:11,454 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-06-23 20:27:11,454 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-06-23 20:27:11,454 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-06-23 20:27:11,454 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.0.0
+2020-06-23 20:27:11,455 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-06-23 20:27:11,455 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.0.0
+2020-06-23 20:27:11,455 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.1
+2020-06-23 20:27:11,455 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-06-23 20:27:11,455 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2020-06-23 20:27:11,455 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.0.0
+2020-06-23 20:27:11,455 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-06-23 20:27:11,455 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-06-23 20:27:11,456 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.2.0
+2020-06-23 20:27:11,456 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-06-23 20:27:11,929 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-23 20:27:11,930 [INFO] PinOutPanel:1420 - setPackage(STM32F051K8Tx,LQFP32)
+2020-06-23 20:27:12,906 [INFO] UtilMem:74 - Before build in PCC Used Memory: 197776008 Bytes (641728512)
+2020-06-23 20:27:13,516 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-23 20:27:13,612 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-23 20:27:13,680 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-23 20:27:13,687 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-23 20:27:13,890 [INFO] UtilMem:74 - After build in PCC Used Memory: 193227392 Bytes (797966336)
+2020-06-23 20:27:13,921 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,922 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,922 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,922 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,923 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,923 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,923 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,923 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,924 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,924 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,924 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,924 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,924 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,925 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,925 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,925 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,925 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,926 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,926 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,926 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,926 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,927 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,927 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,927 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,927 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,927 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,928 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,928 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,928 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,928 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,928 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,929 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-23 20:27:13,969 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-06-23 20:27:14,069 [INFO] OpenFileManager:294 - Restore cursor
+2020-06-23 20:36:13,776 [INFO] DbMcusDocs:142 - JSON generation date=Wed Jun 03 16:10:31 BST 2020 (1591197031)
+2020-06-23 20:36:13,941 [INFO] DbMcusDocs:77 - Found 580 MCUs documents
+2020-06-23 21:01:16,201 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 693709440 Bytes (853540864)
+2020-06-23 21:01:16,386 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 212097168 Bytes (853540864)
+2020-06-23 21:01:16,489 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 221012104 Bytes (853540864)
+2020-06-23 21:01:16,977 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-23 21:01:16,977 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-23 21:01:16,977 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-23 21:01:16,978 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-23 21:01:16,978 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-23 21:01:16,978 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-23 21:01:16,978 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-23 21:01:16,978 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-23 21:01:16,978 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-23 21:01:16,978 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-23 21:01:16,979 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-23 21:01:17,345 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-23 21:01:17,689 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-23 21:01:17,833 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-23 21:01:17,951 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-23 21:01:17,953 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-23 21:01:18,029 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-23 21:01:18,894 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-23 21:01:18,895 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-23 21:01:18,896 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-23 21:01:18,901 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-23 21:01:19,051 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-23 21:01:19,054 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-23 21:01:19,133 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-23 21:01:19,133 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-23 21:01:19,134 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-23 21:01:19,134 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-23 21:01:19,139 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-23 21:01:19,346 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-23 21:01:19,348 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-23 21:01:19,430 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-23 21:01:19,432 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-23 21:01:19,433 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-23 21:01:19,439 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-23 21:01:19,574 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-23 21:01:19,576 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-23 21:01:19,655 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-23 21:01:19,663 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-23 21:01:19,771 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-23 21:01:19,774 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-23 21:01:19,856 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-23 21:01:19,860 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-23 21:01:19,939 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-23 21:01:19,970 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-23 21:01:20,061 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-23 21:01:20,065 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-23 21:01:20,172 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-23 21:01:20,780 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 70mS.
+2020-06-23 21:01:20,783 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-23 21:01:21,238 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-23 21:01:23,351 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2568mS.
+2020-06-23 21:01:23,352 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2020-06-23 21:01:23,352 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 00:19:05,736 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 475289728 Bytes (913309696)
+2020-06-24 00:19:05,856 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 499933304 Bytes (913309696)
+2020-06-24 00:19:05,951 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 529094816 Bytes (913309696)
+2020-06-24 00:19:06,131 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 00:19:06,132 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 00:19:06,132 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 00:19:06,132 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 00:19:06,132 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 00:19:06,132 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 00:19:06,132 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 00:19:06,132 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 00:19:06,132 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 00:19:06,132 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 00:19:06,132 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 00:19:06,133 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 00:19:06,342 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 00:19:06,408 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 00:19:06,468 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 00:19:06,542 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 00:19:06,545 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 00:19:06,609 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 00:19:07,313 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 00:19:07,313 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 00:19:07,314 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 00:19:07,318 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 00:19:07,417 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 00:19:07,419 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 00:19:07,484 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 00:19:07,484 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 00:19:07,485 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 00:19:07,485 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 00:19:07,489 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 00:19:07,646 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 00:19:07,648 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 00:19:07,711 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 00:19:07,712 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 00:19:07,712 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 00:19:07,716 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 00:19:07,794 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 00:19:07,796 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 00:19:07,863 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 00:19:07,866 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 00:19:08,029 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 00:19:08,032 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 00:19:08,093 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 00:19:08,095 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 00:19:08,161 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 00:19:08,167 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 00:19:08,231 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 00:19:08,234 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 00:19:08,314 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 00:19:08,764 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 15mS.
+2020-06-24 00:19:08,765 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 00:19:09,025 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 00:19:10,316 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1551mS.
+2020-06-24 00:19:10,316 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 00:19:10,317 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 19:52:51,861 [INFO] Activator:176 - 
+
+
+2020-06-24 19:52:51,865 [INFO] Activator:177 - !SESSION log4j initialized
+2020-06-24 19:58:02,324 [INFO] ApplicationProperties:181 - Using Application install path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303
+2020-06-24 19:58:02,342 [INFO] DbMcusXml:72 - Set database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//mcu/
+2020-06-24 19:58:02,347 [INFO] DbBoardsPdsc:54 - Set plugin database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/boardmanager/
+2020-06-24 19:58:02,348 [INFO] DbMcus:235 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-24 19:58:02,348 [INFO] DbBoards:232 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-24 19:58:02,357 [INFO] DbMcusAds:85 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,358 [INFO] DbMcusDocs:108 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,361 [INFO] DbMcusJson:61 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,362 [INFO] DbBoardsDocs:97 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,363 [INFO] DbBoardsJson:51 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,501 [INFO] CrossReferenceDbSqlite:197 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/cs/
+2020-06-24 19:58:02,609 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-06-24 19:58:02,678 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_202
+2020-06-24 19:58:02,679 [INFO] DbMcusXml:72 - Set database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//mcu/
+2020-06-24 19:58:02,679 [INFO] DbBoardsPdsc:54 - Set plugin database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/boardmanager/
+2020-06-24 19:58:02,679 [INFO] DbMcus:235 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-24 19:58:02,680 [INFO] DbBoards:232 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-24 19:58:02,680 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,681 [INFO] DbMcusAds:85 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,681 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,681 [INFO] DbMcusDocs:108 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,681 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,682 [INFO] DbMcusJson:61 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,682 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,682 [INFO] DbBoardsDocs:97 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,682 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,682 [INFO] DbBoardsJson:51 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,683 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,683 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,683 [INFO] CrossReferenceDbSqlite:197 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/cs/
+2020-06-24 19:58:02,758 [INFO] MainPanel:181 - HeapMemory: 322961408
+2020-06-24 19:58:02,852 [INFO] DbMcusXml:72 - Set database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//mcu/
+2020-06-24 19:58:02,853 [INFO] DbBoardsPdsc:54 - Set plugin database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/boardmanager/
+2020-06-24 19:58:02,853 [INFO] DbMcus:235 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-24 19:58:02,853 [INFO] DbBoards:232 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//plugins/mcufinder/images/
+2020-06-24 19:58:02,854 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,854 [INFO] DbMcusAds:85 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,855 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,855 [INFO] DbMcusDocs:108 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,855 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,855 [INFO] DbMcusJson:61 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,856 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,856 [INFO] DbBoardsDocs:97 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,856 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,856 [INFO] DbBoardsJson:51 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-06-24 19:58:02,856 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,857 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-06-24 19:58:02,857 [INFO] CrossReferenceDbSqlite:197 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/cs/
+2020-06-24 19:58:02,872 [INFO] ApplicationProperties:181 - Using Application install path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303
+2020-06-24 19:58:02,874 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2020-06-24 19:58:02,877 [INFO] PluginManage:292 - Check plugin analytics
+2020-06-24 19:58:02,883 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-06-24 19:58:02,884 [INFO] PluginManage:292 - Check plugin clock
+2020-06-24 19:58:02,897 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-06-24 19:58:02,898 [INFO] PluginManage:292 - Check plugin ddr
+2020-06-24 19:58:02,901 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-06-24 19:58:02,901 [INFO] PluginManage:292 - Check plugin filemanager
+2020-06-24 19:58:03,033 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-06-24 19:58:03,033 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-06-24 19:58:03,043 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-06-24 19:58:03,043 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-06-24 19:58:03,053 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-06-24 19:58:03,053 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-06-24 19:58:03,078 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-06-24 19:58:03,079 [INFO] PluginManage:292 - Check plugin power
+2020-06-24 19:58:03,090 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-06-24 19:58:03,090 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-06-24 19:58:03,109 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-06-24 19:58:03,109 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-06-24 19:58:03,167 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 27 ms. number of Sw pack : 19
+2020-06-24 19:58:03,185 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-06-24 19:58:03,185 [INFO] PluginManage:292 - Check plugin tools
+2020-06-24 19:58:03,187 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-06-24 19:58:03,187 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-06-24 19:58:03,189 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2020-06-24 19:58:03,189 [INFO] PluginManage:292 - Check plugin updater
+2020-06-24 19:58:03,202 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-06-24 19:58:03,203 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-06-24 19:58:03,362 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 19:58:03,423 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,423 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-06-24 19:58:03,429 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,429 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-06-24 19:58:03,431 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,431 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-06-24 19:58:03,433 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,434 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-06-24 19:58:03,436 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,436 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-06-24 19:58:03,438 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,438 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-06-24 19:58:03,441 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,442 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-06-24 19:58:03,444 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,444 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-06-24 19:58:03,451 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,451 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-06-24 19:58:03,455 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,456 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-06-24 19:58:03,459 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,460 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-06-24 19:58:03,465 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,466 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-06-24 19:58:03,467 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,467 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-06-24 19:58:03,471 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,471 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-06-24 19:58:03,473 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,473 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-06-24 19:58:03,475 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,475 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-06-24 19:58:03,479 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,479 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-06-24 19:58:03,483 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,484 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-06-24 19:58:03,489 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,489 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-06-24 19:58:03,494 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,494 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-06-24 19:58:03,496 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,496 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-06-24 19:58:03,498 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,498 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-06-24 19:58:03,503 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,504 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-06-24 19:58:03,506 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,506 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-06-24 19:58:03,514 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,518 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-06-24 19:58:03,520 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,521 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-06-24 19:58:03,525 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,525 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-06-24 19:58:03,529 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,530 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-06-24 19:58:03,532 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,532 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-06-24 19:58:03,534 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,535 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-06-24 19:58:03,537 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,538 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-06-24 19:58:03,540 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,540 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-06-24 19:58:03,543 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,543 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-06-24 19:58:03,550 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,550 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-06-24 19:58:03,552 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,552 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-06-24 19:58:03,555 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,555 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-06-24 19:58:03,557 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:03,558 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-06-24 19:58:03,771 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-06-24 19:58:03,772 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2020-06-24 19:58:03,945 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-06-24 19:58:04,126 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-06-24 19:58:04,130 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 19:58:04,131 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-06-24 19:58:04,135 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-06-24 19:58:04,136 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.linux64_1.3.0.202002181050/tools/bin
+2020-06-24 19:58:04,141 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.linux64_1.3.0.202002181050/tools/bin/STM32_Programmer_CLI -l
+2020-06-24 19:58:04,241 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.linux64_1.3.0.202002181050/tools/bin
+2020-06-24 19:58:04,245 [INFO] Updater:886 - Updater Version found : 5.6.1
+2020-06-24 19:58:04,267 [INFO] ApplicationProperties:181 - Using Application install path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303
+2020-06-24 19:58:04,465 [INFO] MainUpdater:2230 - connection check result : 10
+2020-06-24 19:58:04,466 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2020-06-24 19:58:04,466 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 19:58:04,498 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-06-24 19:58:04,671 [INFO] MainUpdater:2230 - connection check result : 10
+2020-06-24 19:58:04,780 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-24 19:58:04,780 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 19:58:04,783 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 19:58:04,783 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 233707592 Bytes (322961408)
+2020-06-24 19:58:04,784 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-24 19:58:04,784 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 19:58:04,784 [INFO] OpenFileManager:274 - Change cursor
+2020-06-24 19:58:06,192 [ERROR] Engine:1314 - Problem during Copy of File ARM.CMSIS.5.6.0_Modes.xml
+2020-06-24 19:58:06,192 [ERROR] Engine:162 - cannot copy files for sw pack name : ARM.CMSIS.5.6.0
+2020-06-24 19:58:06,193 [ERROR] Engine:1314 - Problem during Copy of File ARM.CMSIS.5.6.0_Configs.xml
+2020-06-24 19:58:06,193 [ERROR] Engine:170 - cannot copy files for sw pack name : ARM.CMSIS.5.6.0
+2020-06-24 19:58:06,194 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-06-24 19:58:06,326 [ERROR] ThirdParty:759 - Integrity check failed: pack='[ARM.CMSIS.5.6.0]' / reason: 
+2020-06-24 19:58:06,367 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 11 ms. number of Sw pack : 19
+2020-06-24 19:58:06,571 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-06-24 19:58:06,599 [INFO] IntegrityCheckThread:98 - End integrity checks thread
+2020-06-24 19:58:07,233 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 256385376 Bytes (473956352)
+2020-06-24 19:58:07,234 [INFO] DbMcusXml:110 - Load MCU database from /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db//mcu/families.xml
+2020-06-24 19:58:08,157 [INFO] DbMcusJson:90 - JSON generation date=Wed Jun 03 16:10:31 BST 2020 (1591197031)
+2020-06-24 19:58:08,945 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-06-24 19:58:08,945 [INFO] ApiDb:158 - Load user favorites file /home/chris/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2020-06-24 19:58:08,946 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-06-24 19:58:08,946 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2020-06-24 19:58:08,965 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 9 ms. number of Sw pack : 19
+2020-06-24 19:58:08,982 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776214022]
+2020-06-24 19:58:08,982 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1580776213349
+2020-06-24 19:58:08,983 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776216598, 1580776214105]
+2020-06-24 19:58:09,155 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-06-24 19:58:09,156 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-06-24 19:58:09,156 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-06-24 19:58:09,156 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.0.0
+2020-06-24 19:58:09,156 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-06-24 19:58:09,156 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.0.0
+2020-06-24 19:58:09,156 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.1
+2020-06-24 19:58:09,156 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-06-24 19:58:09,156 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2020-06-24 19:58:09,156 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.0.0
+2020-06-24 19:58:09,156 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-06-24 19:58:09,157 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-06-24 19:58:09,157 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.2.0
+2020-06-24 19:58:09,157 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-06-24 19:58:09,432 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 19:58:09,434 [INFO] PinOutPanel:1420 - setPackage(STM32F051K8Tx,LQFP32)
+2020-06-24 19:58:10,251 [INFO] UtilMem:74 - Before build in PCC Used Memory: 375036480 Bytes (811597824)
+2020-06-24 19:58:10,679 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 19:58:10,733 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 19:58:10,788 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 19:58:10,793 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 19:58:10,987 [INFO] UtilMem:74 - After build in PCC Used Memory: 433756736 Bytes (811597824)
+2020-06-24 19:58:11,019 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,020 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,020 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,020 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,020 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,020 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,020 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,021 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,021 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,021 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,021 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,021 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,022 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,022 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,022 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,022 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,022 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,023 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,023 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,023 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,023 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,023 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,026 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 19:58:11,059 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-06-24 19:58:11,155 [INFO] OpenFileManager:294 - Restore cursor
+2020-06-24 19:58:45,155 [INFO] DbMcusDocs:142 - JSON generation date=Wed Jun 03 16:10:31 BST 2020 (1591197031)
+2020-06-24 19:58:45,307 [INFO] DbMcusDocs:77 - Found 580 MCUs documents
+2020-06-24 19:58:51,760 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 467477184 Bytes (811597824)
+2020-06-24 19:58:51,893 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 474619448 Bytes (811597824)
+2020-06-24 19:58:52,017 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 483205824 Bytes (811597824)
+2020-06-24 19:58:52,496 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 19:58:52,496 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 19:58:52,496 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 19:58:52,496 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 19:58:52,496 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 19:58:52,496 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 19:58:52,496 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 19:58:52,496 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 19:58:52,496 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 19:58:52,496 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 19:58:52,497 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 19:58:52,499 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 19:58:52,828 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 19:58:53,151 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 19:58:53,403 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 19:58:53,529 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 19:58:53,533 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 19:58:53,613 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 19:58:54,584 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 19:58:54,585 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 19:58:54,586 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 19:58:54,590 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 19:58:54,733 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 19:58:54,736 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 19:58:54,822 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 19:58:54,823 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 19:58:54,824 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 19:58:54,824 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 19:58:54,829 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 19:58:55,038 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 19:58:55,040 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 19:58:55,113 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 19:58:55,114 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 19:58:55,114 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 19:58:55,120 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 19:58:55,251 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 19:58:55,254 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 19:58:55,328 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 19:58:55,334 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 19:58:55,438 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 19:58:55,479 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 19:58:55,599 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 19:58:55,606 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 19:58:55,713 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 19:58:55,741 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 19:58:55,878 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 19:58:55,886 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 19:58:56,010 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 19:58:56,595 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 68mS.
+2020-06-24 19:58:56,599 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 19:58:57,056 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 19:58:59,359 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2761mS.
+2020-06-24 19:58:59,360 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 19:58:59,360 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 20:06:07,830 [INFO] MainUpdater:2230 - connection check result : 10
+2020-06-24 20:06:07,878 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-24 20:06:07,879 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 20:06:07,880 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 20:06:07,883 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 739248024 Bytes (939524096)
+2020-06-24 20:06:07,884 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-24 20:06:07,884 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 20:06:07,884 [INFO] OpenFileManager:274 - Change cursor
+2020-06-24 20:06:07,892 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-06-24 20:06:09,016 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 489101872 Bytes (939524096)
+2020-06-24 20:06:09,018 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776214022]
+2020-06-24 20:06:09,019 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1580776213349
+2020-06-24 20:06:09,020 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776216598, 1580776214105]
+2020-06-24 20:06:09,094 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.0.0
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.0.0
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.1
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.0.0
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-06-24 20:06:09,095 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-06-24 20:06:09,096 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.2.0
+2020-06-24 20:06:09,096 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-06-24 20:06:09,200 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 20:06:09,201 [INFO] PinOutPanel:1420 - setPackage(STM32F051K8Tx,LQFP32)
+2020-06-24 20:06:09,757 [INFO] UtilMem:74 - Before build in PCC Used Memory: 620602128 Bytes (939524096)
+2020-06-24 20:06:09,881 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 20:06:09,924 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 20:06:09,958 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 20:06:09,962 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 20:06:10,010 [INFO] UtilMem:74 - After build in PCC Used Memory: 663593744 Bytes (939524096)
+2020-06-24 20:06:10,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,025 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,026 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,026 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,026 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,026 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,027 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,027 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,027 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,027 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,027 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,027 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,028 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,028 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,028 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,028 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,028 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,028 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,029 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,029 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,029 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 20:06:10,055 [INFO] OpenFileManager:294 - Restore cursor
+2020-06-24 20:06:27,028 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 506476800 Bytes (939524096)
+2020-06-24 20:06:27,128 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 513290504 Bytes (939524096)
+2020-06-24 20:06:27,209 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 521156864 Bytes (939524096)
+2020-06-24 20:06:27,382 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 20:06:27,382 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 20:06:27,382 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 20:06:27,382 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:06:27,382 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:06:27,382 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:06:27,382 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:06:27,382 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:06:27,382 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:06:27,382 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 20:06:27,383 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 20:06:27,383 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 20:06:27,602 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 20:06:27,666 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 20:06:27,745 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 20:06:27,814 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 20:06:27,816 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 20:06:27,881 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 20:06:28,568 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 20:06:28,569 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 20:06:28,569 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:06:28,573 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 20:06:28,671 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 20:06:28,673 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 20:06:28,735 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 20:06:28,736 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 20:06:28,736 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 20:06:28,736 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:06:28,741 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 20:06:28,896 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 20:06:28,898 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 20:06:28,959 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 20:06:28,960 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 20:06:28,960 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:06:28,964 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 20:06:29,040 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 20:06:29,042 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 20:06:29,101 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 20:06:29,105 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 20:06:29,194 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 20:06:29,196 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 20:06:29,335 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 20:06:29,337 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 20:06:29,400 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 20:06:29,410 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 20:06:29,472 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 20:06:29,475 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 20:06:29,556 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 20:06:29,989 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 14mS.
+2020-06-24 20:06:29,991 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 20:06:30,236 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 20:06:31,895 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1904mS.
+2020-06-24 20:06:31,895 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 20:06:31,896 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 20:09:16,523 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 326016968 Bytes (1029701632)
+2020-06-24 20:09:16,653 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 334927824 Bytes (1029701632)
+2020-06-24 20:09:16,756 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 343316432 Bytes (1029701632)
+2020-06-24 20:09:16,922 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 20:09:16,923 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 20:09:16,923 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 20:09:16,923 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:09:16,923 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:09:16,923 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:09:16,923 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:09:16,923 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:09:16,923 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:09:16,923 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 20:09:16,923 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 20:09:16,924 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 20:09:17,122 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 20:09:17,180 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 20:09:17,237 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 20:09:17,300 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 20:09:17,302 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 20:09:17,360 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 20:09:17,885 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 20:09:17,887 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 20:09:17,888 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:09:17,891 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 20:09:18,068 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 20:09:18,070 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 20:09:18,132 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 20:09:18,133 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 20:09:18,133 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 20:09:18,133 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:09:18,137 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 20:09:18,283 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 20:09:18,285 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 20:09:18,343 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 20:09:18,344 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 20:09:18,344 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:09:18,347 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 20:09:18,419 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 20:09:18,421 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 20:09:18,479 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 20:09:18,482 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 20:09:18,567 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 20:09:18,568 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 20:09:18,623 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 20:09:18,625 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 20:09:18,685 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 20:09:18,691 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 20:09:18,753 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 20:09:18,755 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 20:09:18,835 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 20:09:19,270 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 13mS.
+2020-06-24 20:09:19,272 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 20:09:19,511 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 20:09:21,412 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2140mS.
+2020-06-24 20:09:21,462 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 20:09:21,463 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 20:42:37,051 [INFO] Gpio:248 - dependency for GPIO [SPI1, SYS, TIM1, TIM2, TIM3, TIM14]
+2020-06-24 20:42:40,711 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,2,26,632x752,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-06-24 20:42:58,399 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 655310088 Bytes (1073741824)
+2020-06-24 20:42:58,543 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 662920952 Bytes (1073741824)
+2020-06-24 20:42:58,671 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 669594176 Bytes (1073741824)
+2020-06-24 20:42:58,866 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 20:42:58,866 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 20:42:58,866 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 20:42:58,866 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:42:58,866 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:42:58,866 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:42:58,866 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:42:58,867 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:42:58,867 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:42:58,867 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 20:42:58,867 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 20:42:58,867 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 20:42:59,097 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 20:42:59,156 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 20:42:59,217 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 20:42:59,293 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 20:42:59,294 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 20:42:59,366 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 20:43:00,138 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 20:43:00,138 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 20:43:00,139 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:43:00,142 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 20:43:00,231 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 20:43:00,233 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 20:43:00,294 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 20:43:00,295 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 20:43:00,295 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 20:43:00,295 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:43:00,299 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 20:43:00,461 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 20:43:00,463 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 20:43:00,525 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 20:43:00,526 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 20:43:00,526 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:43:00,529 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 20:43:00,611 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 20:43:00,612 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 20:43:00,674 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 20:43:00,677 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 20:43:00,767 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 20:43:00,769 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 20:43:00,827 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 20:43:00,829 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 20:43:00,894 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 20:43:00,900 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 20:43:00,965 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 20:43:00,968 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 20:43:01,049 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 20:43:01,687 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 14mS.
+2020-06-24 20:43:01,688 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 20:43:01,937 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 20:43:03,958 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2270mS.
+2020-06-24 20:43:03,964 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 5mS.
+2020-06-24 20:43:03,965 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 20:53:30,661 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x419,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-06-24 20:53:41,190 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,632x425,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-06-24 20:53:45,223 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-06-24 20:53:48,220 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-06-24 20:54:01,252 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 742328752 Bytes (1073741824)
+2020-06-24 20:54:01,366 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 749668784 Bytes (1073741824)
+2020-06-24 20:54:01,450 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 757008816 Bytes (1073741824)
+2020-06-24 20:54:01,620 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 20:54:01,620 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 20:54:01,620 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 20:54:01,620 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:54:01,620 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:54:01,620 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:54:01,621 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:54:01,621 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:54:01,621 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 20:54:01,621 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 20:54:01,621 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 20:54:01,621 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 20:54:01,823 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 20:54:01,880 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 20:54:02,021 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 20:54:02,082 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 20:54:02,084 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 20:54:02,146 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 20:54:02,664 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 20:54:02,665 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 20:54:02,665 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:54:02,668 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 20:54:02,759 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 20:54:02,761 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 20:54:02,820 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 20:54:02,820 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 20:54:02,821 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 20:54:02,821 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:54:02,824 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 20:54:02,961 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 20:54:02,963 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 20:54:03,022 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 20:54:03,022 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 20:54:03,023 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 20:54:03,026 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 20:54:03,098 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 20:54:03,100 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 20:54:03,158 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 20:54:03,162 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 20:54:03,248 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 20:54:03,250 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 20:54:03,307 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 20:54:03,309 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 20:54:03,372 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 20:54:03,379 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 20:54:03,441 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 20:54:03,443 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 20:54:03,522 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 20:54:04,029 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 14mS.
+2020-06-24 20:54:04,030 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 20:54:04,270 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 20:54:06,002 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1972mS.
+2020-06-24 20:54:06,002 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 20:54:06,003 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 21:21:55,762 [INFO] Gpio:248 - dependency for GPIO [SPI1, SYS, TIM1, TIM2, TIM3, TIM14]
+2020-06-24 21:22:11,265 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 371658672 Bytes (1073741824)
+2020-06-24 21:22:11,367 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 380569528 Bytes (1073741824)
+2020-06-24 21:22:11,471 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 388958136 Bytes (1073741824)
+2020-06-24 21:22:11,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 21:22:11,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 21:22:11,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 21:22:11,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 21:22:11,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 21:22:11,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 21:22:11,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 21:22:11,651 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 21:22:11,651 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 21:22:11,651 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 21:22:11,651 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 21:22:11,651 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 21:22:11,859 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 21:22:11,918 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 21:22:11,975 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 21:22:12,042 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 21:22:12,044 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 21:22:12,104 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 21:22:12,643 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 21:22:12,644 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 21:22:12,644 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 21:22:12,647 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 21:22:12,739 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 21:22:12,741 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 21:22:12,868 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 21:22:12,868 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 21:22:12,869 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 21:22:12,869 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 21:22:12,873 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 21:22:13,013 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 21:22:13,015 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 21:22:13,079 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 21:22:13,079 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 21:22:13,080 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 21:22:13,083 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 21:22:13,160 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 21:22:13,162 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 21:22:13,225 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 21:22:13,228 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 21:22:13,318 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 21:22:13,321 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 21:22:13,379 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 21:22:13,381 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 21:22:13,446 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 21:22:13,452 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 21:22:13,517 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 21:22:13,519 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 21:22:13,601 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 21:22:14,050 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 14mS.
+2020-06-24 21:22:14,051 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 21:22:14,308 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 21:22:16,178 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2127mS.
+2020-06-24 21:22:16,178 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 21:22:16,179 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 22:02:39,635 [INFO] MainUpdater:2230 - connection check result : 10
+2020-06-24 22:02:39,681 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-24 22:02:39,681 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 22:02:39,683 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 22:02:39,685 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 729117688 Bytes (1073741824)
+2020-06-24 22:02:39,686 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-24 22:02:39,686 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 22:02:39,686 [INFO] OpenFileManager:274 - Change cursor
+2020-06-24 22:02:39,693 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-06-24 22:02:40,512 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 418471232 Bytes (1073741824)
+2020-06-24 22:02:40,514 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776214022]
+2020-06-24 22:02:40,514 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1580776213349
+2020-06-24 22:02:40,514 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776216598, 1580776214105]
+2020-06-24 22:02:40,572 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-06-24 22:02:40,572 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-06-24 22:02:40,572 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.0.0
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.0.0
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.1
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.0.0
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.2.0
+2020-06-24 22:02:40,573 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-06-24 22:02:40,647 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 22:02:40,647 [INFO] PinOutPanel:1420 - setPackage(STM32F051K8Tx,LQFP32)
+2020-06-24 22:02:41,198 [INFO] UtilMem:74 - Before build in PCC Used Memory: 545252888 Bytes (1073741824)
+2020-06-24 22:02:41,287 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:02:41,310 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:02:41,330 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:02:41,332 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:02:41,363 [INFO] UtilMem:74 - After build in PCC Used Memory: 588244504 Bytes (1073741824)
+2020-06-24 22:02:41,375 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,375 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,375 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,375 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,376 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,376 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,376 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,376 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,376 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,376 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,376 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,377 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,377 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,377 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,377 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,377 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,377 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,377 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,378 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,378 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,378 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,378 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,378 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,378 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,378 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,379 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,379 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,379 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,379 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,379 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,379 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,379 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:02:41,401 [INFO] OpenFileManager:294 - Restore cursor
+2020-06-24 22:02:46,983 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-06-24 22:02:49,656 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-06-24 22:26:18,619 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-06-24 22:26:20,280 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-06-24 22:26:31,545 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 775209784 Bytes (1073741824)
+2020-06-24 22:26:31,656 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 782549216 Bytes (1073741824)
+2020-06-24 22:26:31,744 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 790197056 Bytes (1073741824)
+2020-06-24 22:26:31,917 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 22:26:31,917 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 22:26:31,917 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 22:26:31,917 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:26:31,917 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:26:31,917 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:26:31,917 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:26:31,917 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:26:31,917 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:26:31,918 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 22:26:31,918 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 22:26:31,918 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 22:26:32,133 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 22:26:32,190 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 22:26:32,317 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 22:26:32,378 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 22:26:32,380 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 22:26:32,436 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 22:26:32,994 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 22:26:32,995 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 22:26:32,995 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:26:32,998 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 22:26:33,084 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 22:26:33,086 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 22:26:33,143 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 22:26:33,143 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 22:26:33,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 22:26:33,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:26:33,147 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 22:26:33,366 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 22:26:33,368 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 22:26:33,428 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 22:26:33,429 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 22:26:33,429 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:26:33,432 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 22:26:33,505 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 22:26:33,506 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 22:26:33,566 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 22:26:33,570 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 22:26:33,655 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 22:26:33,656 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 22:26:33,711 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 22:26:33,713 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 22:26:33,776 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 22:26:33,785 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 22:26:33,847 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 22:26:33,849 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 22:26:33,925 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 22:26:34,430 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 12mS.
+2020-06-24 22:26:34,432 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 22:26:34,770 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 22:26:36,155 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1723mS.
+2020-06-24 22:26:36,155 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 22:26:36,156 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 22:33:55,527 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 831410104 Bytes (1073741824)
+2020-06-24 22:33:55,591 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 838750136 Bytes (1073741824)
+2020-06-24 22:33:55,678 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 846090168 Bytes (1073741824)
+2020-06-24 22:33:55,845 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 22:33:55,845 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 22:33:55,845 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 22:33:55,845 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:33:55,846 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:33:55,846 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:33:55,846 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:33:55,846 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:33:55,846 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:33:55,846 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 22:33:55,846 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 22:33:55,846 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 22:33:56,091 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 22:33:56,147 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 22:33:56,201 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 22:33:56,261 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 22:33:56,262 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 22:33:56,318 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 22:33:56,823 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 22:33:56,824 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 22:33:56,824 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:33:56,827 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 22:33:56,912 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 22:33:56,914 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 22:33:56,970 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 22:33:56,971 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 22:33:56,971 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 22:33:56,972 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:33:56,975 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 22:33:57,178 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 22:33:57,179 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 22:33:57,238 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 22:33:57,238 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 22:33:57,239 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:33:57,242 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 22:33:57,312 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 22:33:57,313 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 22:33:57,371 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 22:33:57,374 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 22:33:57,459 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 22:33:57,461 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 22:33:57,516 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 22:33:57,518 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 22:33:57,579 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 22:33:57,585 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 22:33:57,646 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 22:33:57,648 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 22:33:57,724 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 22:33:58,236 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 13mS.
+2020-06-24 22:33:58,237 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 22:33:58,562 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 22:33:59,789 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1552mS.
+2020-06-24 22:33:59,790 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 22:33:59,790 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 22:35:12,030 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 787653848 Bytes (1073741824)
+2020-06-24 22:35:12,197 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 796564704 Bytes (1073741824)
+2020-06-24 22:35:12,337 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 804953312 Bytes (1073741824)
+2020-06-24 22:35:12,521 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 22:35:12,521 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 22:35:12,522 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 22:35:12,522 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:35:12,522 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:35:12,522 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:35:12,522 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:35:12,522 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:35:12,522 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:35:12,522 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 22:35:12,522 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 22:35:12,522 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 22:35:12,798 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 22:35:12,856 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 22:35:12,916 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 22:35:12,977 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 22:35:12,979 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 22:35:13,036 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 22:35:13,536 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 22:35:13,537 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 22:35:13,537 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:35:13,540 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 22:35:13,625 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 22:35:13,626 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 22:35:13,684 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 22:35:13,684 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 22:35:13,685 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 22:35:13,685 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:35:13,689 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 22:35:13,823 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 22:35:13,825 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 22:35:13,883 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 22:35:13,884 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 22:35:13,884 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:35:13,887 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 22:35:13,957 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 22:35:13,959 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 22:35:14,016 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 22:35:14,019 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 22:35:14,160 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 22:35:14,161 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 22:35:14,217 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 22:35:14,219 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 22:35:14,279 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 22:35:14,285 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 22:35:14,346 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 22:35:14,348 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 22:35:14,424 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 22:35:14,843 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 12mS.
+2020-06-24 22:35:14,844 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 22:35:15,083 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 22:35:16,855 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2011mS.
+2020-06-24 22:35:16,856 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 22:35:16,856 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 22:48:02,237 [INFO] MainUpdater:2230 - connection check result : 10
+2020-06-24 22:48:02,288 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-24 22:48:02,289 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 22:48:02,290 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 22:48:02,292 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 592470160 Bytes (1073741824)
+2020-06-24 22:48:02,292 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-24 22:48:02,292 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 22:48:02,292 [INFO] OpenFileManager:274 - Change cursor
+2020-06-24 22:48:02,299 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-06-24 22:48:03,198 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 696068872 Bytes (1073741824)
+2020-06-24 22:48:03,201 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776214022]
+2020-06-24 22:48:03,201 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1580776213349
+2020-06-24 22:48:03,201 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776216598, 1580776214105]
+2020-06-24 22:48:03,262 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-06-24 22:48:03,262 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-06-24 22:48:03,262 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-06-24 22:48:03,262 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.0.0
+2020-06-24 22:48:03,263 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-06-24 22:48:03,263 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.0.0
+2020-06-24 22:48:03,263 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.1
+2020-06-24 22:48:03,263 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-06-24 22:48:03,263 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2020-06-24 22:48:03,263 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.0.0
+2020-06-24 22:48:03,263 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-06-24 22:48:03,263 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-06-24 22:48:03,263 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.2.0
+2020-06-24 22:48:03,263 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-06-24 22:48:03,330 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 22:48:03,330 [INFO] PinOutPanel:1420 - setPackage(STM32F051K8Tx,LQFP32)
+2020-06-24 22:48:03,881 [INFO] UtilMem:74 - Before build in PCC Used Memory: 822536776 Bytes (1073741824)
+2020-06-24 22:48:03,962 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:48:03,983 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:48:04,002 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:48:04,003 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:48:04,034 [INFO] UtilMem:74 - After build in PCC Used Memory: 865006144 Bytes (1073741824)
+2020-06-24 22:48:04,045 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,045 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,045 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:48:04,069 [INFO] OpenFileManager:294 - Restore cursor
+2020-06-24 22:48:11,284 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 418571312 Bytes (1073741824)
+2020-06-24 22:48:11,396 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 426437672 Bytes (1073741824)
+2020-06-24 22:48:11,487 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 433777704 Bytes (1073741824)
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 22:48:11,657 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 22:48:11,658 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 22:48:11,866 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 22:48:11,924 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 22:48:11,995 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 22:48:12,058 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 22:48:12,059 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 22:48:12,118 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 22:48:12,793 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 22:48:12,794 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 22:48:12,794 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:48:12,797 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 22:48:12,882 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 22:48:12,884 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 22:48:12,940 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 22:48:12,941 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 22:48:12,941 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 22:48:12,942 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:48:12,945 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 22:48:13,072 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 22:48:13,074 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 22:48:13,132 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 22:48:13,132 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 22:48:13,133 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:48:13,136 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 22:48:13,206 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 22:48:13,208 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 22:48:13,265 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 22:48:13,268 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 22:48:13,352 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 22:48:13,353 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 22:48:13,408 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 22:48:13,410 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 22:48:13,471 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 22:48:13,480 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 22:48:13,542 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 22:48:13,544 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 22:48:13,620 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 22:48:14,039 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 12mS.
+2020-06-24 22:48:14,040 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 22:48:14,280 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 22:48:16,050 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2010mS.
+2020-06-24 22:48:16,050 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 22:48:16,051 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 22:49:00,388 [INFO] MainUpdater:2230 - connection check result : 10
+2020-06-24 22:49:00,438 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-24 22:49:00,438 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 22:49:00,440 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 22:49:00,441 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 821936536 Bytes (1073741824)
+2020-06-24 22:49:00,446 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-24 22:49:00,446 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-24 22:49:00,446 [INFO] OpenFileManager:274 - Change cursor
+2020-06-24 22:49:00,451 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-06-24 22:49:01,300 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 593882216 Bytes (1073741824)
+2020-06-24 22:49:01,302 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776214022]
+2020-06-24 22:49:01,303 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1580776213349
+2020-06-24 22:49:01,303 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1580776216598, 1580776214105]
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 5.0.0
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.1.0
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.0.0
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 4.0.0
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.1
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.0.0
+2020-06-24 22:49:01,353 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-06-24 22:49:01,354 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-06-24 22:49:01,354 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.2.0
+2020-06-24 22:49:01,354 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 1.0.0
+2020-06-24 22:49:01,419 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-24 22:49:01,420 [INFO] PinOutPanel:1420 - setPackage(STM32F051K8Tx,LQFP32)
+2020-06-24 22:49:01,973 [INFO] UtilMem:74 - Before build in PCC Used Memory: 720665920 Bytes (1073741824)
+2020-06-24 22:49:02,055 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:49:02,075 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:49:02,095 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:49:02,097 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-06-24 22:49:02,126 [INFO] UtilMem:74 - After build in PCC Used Memory: 763131208 Bytes (1073741824)
+2020-06-24 22:49:02,137 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,138 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,138 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,138 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,138 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,138 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,138 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,138 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,138 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,139 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,139 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,139 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,139 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,139 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,139 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,139 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,141 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,141 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,141 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,141 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,141 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,141 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,141 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,142 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-24 22:49:02,163 [INFO] OpenFileManager:294 - Restore cursor
+2020-06-24 22:49:10,852 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 436839944 Bytes (1073741824)
+2020-06-24 22:49:10,947 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 444531512 Bytes (1073741824)
+2020-06-24 22:49:11,031 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 451349296 Bytes (1073741824)
+2020-06-24 22:49:11,200 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SPI
+2020-06-24 22:49:11,200 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-24 22:49:11,200 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM6_7F0
+2020-06-24 22:49:11,200 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:49:11,200 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:49:11,200 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:49:11,200 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:49:11,200 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:49:11,200 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-24 22:49:11,200 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-24 22:49:11,201 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-24 22:49:11,201 [INFO] CodeGenerator:603 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_5.6.1.202004052303//db/
+2020-06-24 22:49:11,404 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-06-24 22:49:11,461 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-06-24 22:49:11,529 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-06-24 22:49:11,590 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-06-24 22:49:11,592 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-06-24 22:49:11,650 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-06-24 22:49:12,289 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 22:49:12,290 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2020-06-24 22:49:12,290 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:49:12,292 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-06-24 22:49:12,378 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-06-24 22:49:12,380 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-06-24 22:49:12,437 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-06-24 22:49:12,437 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-06-24 22:49:12,438 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-06-24 22:49:12,438 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:49:12,441 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-06-24 22:49:12,571 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-06-24 22:49:12,572 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-06-24 22:49:12,629 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-06-24 22:49:12,630 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-06-24 22:49:12,630 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-06-24 22:49:12,633 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-06-24 22:49:12,702 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-06-24 22:49:12,704 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-06-24 22:49:12,761 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-06-24 22:49:12,764 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-06-24 22:49:12,848 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-06-24 22:49:12,850 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-06-24 22:49:12,904 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-06-24 22:49:12,906 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-06-24 22:49:12,967 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-06-24 22:49:12,975 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-06-24 22:49:13,037 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-06-24 22:49:13,039 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-06-24 22:49:13,115 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-06-24 22:49:13,535 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 13mS.
+2020-06-24 22:49:13,536 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-24 22:49:13,889 [INFO] ConfigFileManager:1066 - The Die is : DIE440
+2020-06-24 22:49:15,212 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 1676mS.
+2020-06-24 22:49:15,212 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-06-24 22:49:15,213 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
