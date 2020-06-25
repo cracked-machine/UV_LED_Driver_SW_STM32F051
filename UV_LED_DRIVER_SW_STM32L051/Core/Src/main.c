@@ -117,11 +117,9 @@ int main(void)
   while (1)
   {
 
-	  LM_UpdatePwm();
+	 // LM_UpdatePwm();
 	  UM_UpdateDisplay();
-	  char enc_cnt[20];
-	  snprintf(enc_cnt, sizeof(enc_cnt), "%lu", LED_PWM_TIMER.Instance->CCR1);
-	  ILI9341_Draw_Text(enc_cnt, 10, 200, WHITE, 2, BLACK);
+
 
 
     /* USER CODE END WHILE */

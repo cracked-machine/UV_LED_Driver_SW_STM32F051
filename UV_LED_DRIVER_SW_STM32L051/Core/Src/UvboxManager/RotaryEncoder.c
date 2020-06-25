@@ -24,8 +24,8 @@ UVBOX_EncoderDirTypeDef previous_encoder_dir;
  */
 void RE_Setup()
 {
-	HAL_TIM_Base_Start(&ROTARY_ENCODER);
-	previous_encoder_dir = (ROTARY_ENCODER.Instance->CR1 & TIM_CR1_DIR);
+	HAL_TIM_Encoder_Start_IT(&ROTARY_ENCODER, TIM_CHANNEL_ALL);
+	ROTARY_ENCODER.Instance->CNT = 32767;
 }
 
 /*

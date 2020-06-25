@@ -48,6 +48,9 @@ void UM_UpdateDisplay()
 {
 	UM_DisplayAsMinutesAndSeconds(TM_GetTimerCount());
 
+	char enc_cnt[20];
+	snprintf(enc_cnt, sizeof(enc_cnt), "%lu", LED_PWM_TIMER.Instance->CCR1);
+	ILI9341_Draw_Text(enc_cnt, 10, 200, WHITE, 2, BLACK);
 }
 
 /*

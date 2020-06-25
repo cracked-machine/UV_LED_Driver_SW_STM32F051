@@ -36,7 +36,8 @@ Core/Src/stm32f0xx_it.o: ../Core/Src/stm32f0xx_it.c ../Core/Inc/main.h \
  /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h \
  /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.h \
  /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.h \
- /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager/TimeoutManager.h
+ /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager/TimeoutManager.h \
+ /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager/LedManager.h
 
 ../Core/Inc/main.h:
 
@@ -119,3 +120,5 @@ Core/Src/stm32f0xx_it.o: ../Core/Src/stm32f0xx_it.c ../Core/Inc/main.h \
 /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.h:
 
 /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager/TimeoutManager.h:
+
+/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager/LedManager.h:

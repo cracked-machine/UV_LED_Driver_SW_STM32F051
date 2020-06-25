@@ -140,17 +140,25 @@ void _UpdateUvPwm(UVBOX_EncoderDirTypeDef new_encoder_dir)
  */
 void _UpdateLedPwm(UVBOX_EncoderDirTypeDef new_encoder_dir)
 {
-	uint32_t new_encoder_value = ROTARY_ENCODER.Instance->CNT;
-	if(new_encoder_value < previous_encoder_value)
+	uint16_t top_encoder_limit = 127;
+	uint8_t encoder_dir = ((ROTARY_ENCODER.Instance->CR1 & TIM_CR1_DIR) == TIM_CR1_DIR);
+	if(encoder_dir)
 	{
-		LED_PWM_TIMER.Instance->CCR1 -= ENCODER_STEP;
+		if(LED_PWM_TIMER.Instance->CCR1 > 0)
+			LED_PWM_TIMER.Instance->CCR1 -= ENCODER_STEP;
+
+
+
 	}
-	else if(new_encoder_value > previous_encoder_value)
+	else
 	{
-		LED_PWM_TIMER.Instance->CCR1 += ENCODER_STEP;
+
+		if(LED_PWM_TIMER.Instance->CCR1 < top_encoder_limit)
+			LED_PWM_TIMER.Instance->CCR1 += ENCODER_STEP;
+
 	}
 
-	previous_encoder_value = new_encoder_value;
+
 /*
 	// encoder direction has changed from increasing to decreasing
 	if( (RE_getPrevEncoderDir()) && (!new_encoder_dir) )

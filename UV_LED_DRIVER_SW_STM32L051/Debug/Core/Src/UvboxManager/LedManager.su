@@ -2,5 +2,5 @@ LedManager.c:28:26:LM_EnableUVMode	8	static
 LedManager.c:53:26:LM_DisableUVMode	8	static
 LedManager.c:79:6:_UpdateUvPwm	16	static
 LedManager.c:141:6:_UpdateLedPwm	24	static
-LedManager.c:195:6:LM_UpdatePwm	8	static
-LedManager.c:217:6:LM_SetStatusLed	16	static
+LedManager.c:203:6:LM_UpdatePwm	8	static
+LedManager.c:225:6:LM_SetStatusLed	16	static
