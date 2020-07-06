@@ -18,7 +18,7 @@ typedef enum
 } UVBOX_EncoderDirTypeDef;
 
 // step increment/decrement value for PWM registers
-#define ENCODER_STEP	1
+#define ENCODER_STEP	128
 
 void RE_Setup();
 

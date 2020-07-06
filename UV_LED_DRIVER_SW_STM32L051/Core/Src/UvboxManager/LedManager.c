@@ -33,6 +33,9 @@ UVBOX_SystemStateTypedef LM_EnableUVMode()
 	UV_PWM_TIMER.Instance->CCR2 = MAX_UVLED_PWM_PERIOD;
 	UV_PWM_TIMER.Instance->CCR3 = MAX_UVLED_PWM_PERIOD;
 	UV_PWM_TIMER.Instance->CCR4 = MAX_UVLED_PWM_PERIOD;
+
+	// save the user LED brightness setting
+	previous_encoder_value = LED_PWM_TIMER.Instance->CCR1;
 	LED_PWM_TIMER.Instance->CCR1 = 0;
 
 
@@ -58,7 +61,9 @@ UVBOX_SystemStateTypedef LM_DisableUVMode()
 	UV_PWM_TIMER.Instance->CCR2 = 0;
 	UV_PWM_TIMER.Instance->CCR3 = 0;
 	UV_PWM_TIMER.Instance->CCR4 = 0;
-	LED_PWM_TIMER.Instance->CCR1 = MAX_LED_PWM_PERIOD;
+
+	// restore the user LED brightness setting
+	LED_PWM_TIMER.Instance->CCR1 = previous_encoder_value;
 
 	TM_StopTimer();
 	TM_ResetTimer();
@@ -140,56 +145,16 @@ void _UpdateUvPwm(UVBOX_EncoderDirTypeDef new_encoder_dir)
  */
 void _UpdateLedPwm(UVBOX_EncoderDirTypeDef new_encoder_dir)
 {
-	uint16_t top_encoder_limit = 127;
+
 	uint8_t encoder_dir = ((ROTARY_ENCODER.Instance->CR1 & TIM_CR1_DIR) == TIM_CR1_DIR);
 	if(encoder_dir)
 	{
-		if(LED_PWM_TIMER.Instance->CCR1 > 0)
-			LED_PWM_TIMER.Instance->CCR1 -= ENCODER_STEP;
-
-
-
+		LED_PWM_TIMER.Instance->CCR1 -= ENCODER_STEP;
 	}
 	else
 	{
-
-		if(LED_PWM_TIMER.Instance->CCR1 < top_encoder_limit)
-			LED_PWM_TIMER.Instance->CCR1 += ENCODER_STEP;
-
-	}
-
-
-/*
-	// encoder direction has changed from increasing to decreasing
-	if( (RE_getPrevEncoderDir()) && (!new_encoder_dir) )
-	{
-		LED_PWM_TIMER.Instance->CCR1 -= ENCODER_STEP;
-
-		// clamp lower range integer overflow to
-		// MAX_UVLED_PWM_PERIOD+1
-		if(	(LED_PWM_TIMER.Instance->CCR1 > MAX_LED_PWM_PERIOD+1) )
-		{
-			LED_PWM_TIMER.Instance->CCR1 = 0;
-		}
-
-		RE_setPrevEncoderDir( (ROTARY_ENCODER.Instance->CR1 & TIM_CR1_DIR) );
-	}
-	// encoder direction has changed from decreasing to increasing
-	else if( (!RE_getPrevEncoderDir()) && (new_encoder_dir) )
-	{
 		LED_PWM_TIMER.Instance->CCR1 += ENCODER_STEP;
-
-		// clamp upper range integer overflow to
-		// MAX_UVLED_PWM_PERIOD
-		if(	(LED_PWM_TIMER.Instance->CCR1 > MAX_LED_PWM_PERIOD) )
-		{
-			LED_PWM_TIMER.Instance->CCR1 = MAX_LED_PWM_PERIOD;
-		}
-
-		RE_setPrevEncoderDir( (ROTARY_ENCODER.Instance->CR1 & TIM_CR1_DIR) );
 	}
-
-	*/
 }
 
 /*

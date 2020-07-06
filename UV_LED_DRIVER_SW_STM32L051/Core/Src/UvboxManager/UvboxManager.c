@@ -31,8 +31,10 @@ void UM_DisplayExpiredMsg()
 {
 	ILI9341_Fill_Screen(BLACK);
 	ILI9341_Draw_Text("STOPPED", 10, 120, STOPTEXT, 7, BGCOLOUR);
-	BUZZER_PWM.Instance->PSC = 256;
-	HAL_Delay(1000);
+	BUZZER_PWM.Instance->CCR1 = 127;
+	BUZZER_PWM.Instance->PSC = 32768;
+	HAL_Delay(3000);
+	BUZZER_PWM.Instance->CCR1 = 0;
 	BUZZER_PWM.Instance->PSC = 0;
 }
 
@@ -106,11 +108,11 @@ void UM_Setup()
 	  UV_PWM_TIMER.Instance->CCR3 	= 0x00;
 	  UV_PWM_TIMER.Instance->CCR4 	= 0x00;
 
-	  LED_PWM_TIMER.Instance->ARR  	= 0xFF;		// 	255
-	  LED_PWM_TIMER.Instance->CCR1 	= MAX_LED_PWM_PERIOD;
+	  LED_PWM_TIMER.Instance->ARR  	= 0xFFFF;	// Set to full scale resolution
+	  LED_PWM_TIMER.Instance->CCR1 	= 0x80FF;	// Set PWM to ~50%
 
 	  BUZZER_PWM.Instance->ARR = 0xFF;
-	  BUZZER_PWM.Instance->CCR1 = 127;
+	  BUZZER_PWM.Instance->CCR1 = 0;
 	  BUZZER_PWM.Instance->PSC = 0;
 
 	  // debounce timer
