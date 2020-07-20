@@ -1,6 +1,8 @@
 Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o: \
  /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c \
  /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h \
+ /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h \
+ ../Core/Inc/spi.h ../Core/Inc/main.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
  ../Core/Inc/stm32f0xx_hal_conf.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h \
@@ -29,10 +31,15 @@ Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o: \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h \
- /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h \
- ../Core/Inc/spi.h ../Core/Inc/main.h ../Core/Inc/gpio.h
+ ../Core/Inc/gpio.h
 
 /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:
+
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h:
+
+../Core/Inc/spi.h:
+
+../Core/Inc/main.h:
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:
 
@@ -89,11 +96,5 @@ Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o: \
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h:
-
-/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h:
-
-../Core/Inc/spi.h:
-
-../Core/Inc/main.h:
 
 ../Core/Inc/gpio.h:

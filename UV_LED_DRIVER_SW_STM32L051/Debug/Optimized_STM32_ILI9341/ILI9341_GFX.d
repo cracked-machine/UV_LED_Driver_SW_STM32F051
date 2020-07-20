@@ -1,6 +1,11 @@
 Optimized_STM32_ILI9341/ILI9341_GFX.o: \
  /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c \
  /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h \
+ /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h \
+ /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.h \
+ /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.h \
+ /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/5x5_font.h \
+ ../Core/Inc/spi.h ../Core/Inc/main.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
  ../Core/Inc/stm32f0xx_hal_conf.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h \
@@ -28,14 +33,21 @@ Optimized_STM32_ILI9341/ILI9341_GFX.o: \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h \
- ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h \
- /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h \
- /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.h \
- /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.h \
- /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/5x5_font.h \
- ../Core/Inc/spi.h ../Core/Inc/main.h
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h
 
 /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:
+
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h:
+
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.h:
+
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.h:
+
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/5x5_font.h:
+
+../Core/Inc/spi.h:
+
+../Core/Inc/main.h:
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:
 
@@ -92,15 +104,3 @@ Optimized_STM32_ILI9341/ILI9341_GFX.o: \
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h:
-
-/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/fade_log_seq.h:
-
-/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.h:
-
-/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.h:
-
-/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/5x5_font.h:
-
-../Core/Inc/spi.h:
-
-../Core/Inc/main.h:

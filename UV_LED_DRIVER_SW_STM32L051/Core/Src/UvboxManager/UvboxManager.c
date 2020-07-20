@@ -89,7 +89,7 @@ void UM_Setup()
 {
 	  // enable TFT ILI9341 driver
 	  ILI9341_Init();
-	  ILI9341_Set_Rotation(SCREEN_HORIZONTAL_2);
+	  ILI9341_Set_Rotation(SCREEN_HORIZONTAL_1);
 	  ILI9341_Fill_Screen(BLACK);
 	  ILI9341_Draw_Text("INITIALISING...", 10, 10, SYSTEXT, 1, BGCOLOUR);
 

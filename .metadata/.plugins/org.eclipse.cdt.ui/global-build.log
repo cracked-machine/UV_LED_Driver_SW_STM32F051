@@ -580,3 +580,876 @@ Finished building: UV_LED_DRIVER_SW_STM32L051.bin
  
 Finished building: UV_LED_DRIVER_SW_STM32L051.list
  
+12:58:37 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21028	    128	   2152	  23308	   5b0c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+12:59:07 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21028	    128	   2152	  23308	   5b0c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:35:19 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21028	    128	   2152	  23308	   5b0c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:35:38 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21028	    128	   2152	  23308	   5b0c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:36:06 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21028	    128	   2152	  23308	   5b0c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:37:05 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21028	    128	   2152	  23308	   5b0c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:38:04 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+13:38:32 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:38:57 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:39:33 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:39:50 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:40:12 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:40:43 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+13:41:02 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+21:13:39 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+21:13:47 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+21:14:39 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+21:17:59 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:18:42 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:48:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c:21:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:84:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+In file included from ../Core/Src/UvboxManager/UvboxManager.h:18:0,
+                 from ../Core/Src/UvboxManager/LedManager.c:11:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+make: *** [Optimized_STM32_ILI9341/subdir.mk:31: Optimized_STM32_ILI9341/STMBasicGui.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Optimized_STM32_ILI9341/subdir.mk:27: Optimized_STM32_ILI9341/ILI9341_GFX.o] Error 1
+make: *** [Optimized_STM32_ILI9341/subdir.mk:29: Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o] Error 1
+make: *** [Core/Src/UvboxManager/subdir.mk:32: Core/Src/UvboxManager/LedManager.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:18:48 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:48:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error Please define your MCU
+ #error Please define your MCU
+  ^~~~~
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:84:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error Please define your MCU
+ #error Please define your MCU
+  ^~~~~
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c:21:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error Please define your MCU
+ #error Please define your MCU
+  ^~~~~
+make: *** [Optimized_STM32_ILI9341/subdir.mk:29: Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Core/Src/UvboxManager/UvboxManager.h:18:0,
+                 from ../Core/Src/UvboxManager/LedManager.c:11:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error Please define your MCU
+ #error Please define your MCU
+  ^~~~~
+make: *** [Optimized_STM32_ILI9341/subdir.mk:27: Optimized_STM32_ILI9341/ILI9341_GFX.o] Error 1
+make: *** [Optimized_STM32_ILI9341/subdir.mk:31: Optimized_STM32_ILI9341/STMBasicGui.o] Error 1
+make: *** [Core/Src/UvboxManager/subdir.mk:32: Core/Src/UvboxManager/LedManager.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:19:25 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:48:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:84:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c:21:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+make: *** [Optimized_STM32_ILI9341/subdir.mk:29: Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Optimized_STM32_ILI9341/subdir.mk:31: Optimized_STM32_ILI9341/STMBasicGui.o] Error 1
+make: *** [Optimized_STM32_ILI9341/subdir.mk:27: Optimized_STM32_ILI9341/ILI9341_GFX.o] Error 1
+In file included from ../Core/Src/UvboxManager/UvboxManager.h:18:0,
+                 from ../Core/Src/UvboxManager/LedManager.c:11:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:91:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+make: *** [Core/Src/UvboxManager/subdir.mk:32: Core/Src/UvboxManager/LedManager.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:19:55 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:48:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:87:15: warning: ISO C99 requires whitespace after the macro name
+ #define STM32F)51X8
+               ^
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:84:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:87:15: warning: ISO C99 requires whitespace after the macro name
+ #define STM32F)51X8
+               ^
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:93:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:93:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c:21:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:87:15: warning: ISO C99 requires whitespace after the macro name
+ #define STM32F)51X8
+               ^
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:93:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+make: *** [Optimized_STM32_ILI9341/subdir.mk:29: Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Optimized_STM32_ILI9341/subdir.mk:31: Optimized_STM32_ILI9341/STMBasicGui.o] Error 1
+make: *** [Optimized_STM32_ILI9341/subdir.mk:27: Optimized_STM32_ILI9341/ILI9341_GFX.o] Error 1
+In file included from ../Core/Src/UvboxManager/UvboxManager.h:18:0,
+                 from ../Core/Src/UvboxManager/LedManager.c:11:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:87:15: warning: ISO C99 requires whitespace after the macro name
+ #define STM32F)51X8
+               ^
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:93:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+make: *** [Core/Src/UvboxManager/subdir.mk:32: Core/Src/UvboxManager/LedManager.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:20:02 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:22:10 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:48:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:93:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:84:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:93:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+In file included from /home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c:21:0:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:93:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+make: *** [Optimized_STM32_ILI9341/subdir.mk:29: Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Core/Src/UvboxManager/UvboxManager.h:18:0,
+                 from ../Core/Src/UvboxManager/LedManager.c:11:
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.h:93:2: error: #error "Please define your MCU"
+ #error "Please define your MCU"
+  ^~~~~
+make: *** [Optimized_STM32_ILI9341/subdir.mk:31: Optimized_STM32_ILI9341/STMBasicGui.o] Error 1
+make: *** [Optimized_STM32_ILI9341/subdir.mk:27: Optimized_STM32_ILI9341/ILI9341_GFX.o] Error 1
+make: *** [Core/Src/UvboxManager/subdir.mk:32: Core/Src/UvboxManager/LedManager.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:22:42 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:22:55 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:23:02 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+21:24:48 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:25:11 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:25:37 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:25:42 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+21:26:17 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:26:50 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:27:35 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+21:27:38 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+21:28:00 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:28:10 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:28:56 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c: In function 'ILI9341_Draw_Image':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:480:23: error: 'HSPI_INSTANCE' undeclared (first use in this function); did you mean 'IS_TIM_INSTANCE'?
+     HAL_SPI_Transmit(&HSPI_INSTANCE, (unsigned char*)Temp_small_buffer, BURST_MAX_SIZE, 10);
+                       ^~~~~~~~~~~~~
+                       IS_TIM_INSTANCE
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:480:23: note: each undeclared identifier is reported only once for each function it appears in
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c: In function 'ILI9341_Draw_ImageF':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c: In function 'ILI9341_SPI_Init':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:578:23: error: 'HSPI_INSTANCE' undeclared (first use in this function); did you mean 'IS_TIM_INSTANCE'?
+     HAL_SPI_Transmit(&HSPI_INSTANCE, (unsigned char*)Temp_small_buffer, BURST_MAX_SIZE, 10);
+                       ^~~~~~~~~~~~~
+                       IS_TIM_INSTANCE
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:267:7: error: 'SPI_PERIPH' undeclared (first use in this function); did you mean 'SPI_DR_DR'?
+  if ((SPI_PERIPH->CR1 & SPI_CR1_SPE) != SPI_CR1_SPE)
+       ^~~~~~~~~~
+       SPI_DR_DR
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:267:7: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Optimized_STM32_ILI9341/subdir.mk:27: Optimized_STM32_ILI9341/ILI9341_GFX.o] Error 1
+make: *** Waiting for unfinished jobs....
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c: In function '_SPI_SendByte':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:720:6: error: 'SPI_PERIPH' undeclared (first use in this function); did you mean 'SPI_DR_DR'?
+  if((SPI_PERIPH->SR & SPI_SR_TXE) == SPI_SR_TXE)
+      ^~~~~~~~~~
+      SPI_DR_DR
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c: In function '_SPI_SendByteMultiByte':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:757:8: error: 'SPI_PERIPH' undeclared (first use in this function); did you mean 'SPI_DR_DR'?
+   if ((SPI_PERIPH->SR & SPI_SR_TXE) == SPI_SR_TXE)
+        ^~~~~~~~~~
+        SPI_DR_DR
+make: *** [Optimized_STM32_ILI9341/subdir.mk:29: Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:29:09 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c: In function 'ILI9341_SPI_Init':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:267:7: error: 'SPI_PERIPH' undeclared (first use in this function); did you mean 'SPI_DR_DR'?
+  if ((SPI_PERIPH->CR1 & SPI_CR1_SPE) != SPI_CR1_SPE)
+       ^~~~~~~~~~
+       SPI_DR_DR
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:267:7: note: each undeclared identifier is reported only once for each function it appears in
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c: In function '_SPI_SendByte':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:720:6: error: 'SPI_PERIPH' undeclared (first use in this function); did you mean 'SPI_DR_DR'?
+  if((SPI_PERIPH->SR & SPI_SR_TXE) == SPI_SR_TXE)
+      ^~~~~~~~~~
+      SPI_DR_DR
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c: In function '_SPI_SendByteMultiByte':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c:757:8: error: 'SPI_PERIPH' undeclared (first use in this function); did you mean 'SPI_DR_DR'?
+   if ((SPI_PERIPH->SR & SPI_SR_TXE) == SPI_SR_TXE)
+        ^~~~~~~~~~
+        SPI_DR_DR
+make: *** [Optimized_STM32_ILI9341/subdir.mk:29: Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c: In function 'ILI9341_Draw_Image':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:480:23: error: 'HSPI_INSTANCE' undeclared (first use in this function); did you mean 'IS_TIM_INSTANCE'?
+     HAL_SPI_Transmit(&HSPI_INSTANCE, (unsigned char*)Temp_small_buffer, BURST_MAX_SIZE, 10);
+                       ^~~~~~~~~~~~~
+                       IS_TIM_INSTANCE
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:480:23: note: each undeclared identifier is reported only once for each function it appears in
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c: In function 'ILI9341_Draw_ImageF':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:578:23: error: 'HSPI_INSTANCE' undeclared (first use in this function); did you mean 'IS_TIM_INSTANCE'?
+     HAL_SPI_Transmit(&HSPI_INSTANCE, (unsigned char*)Temp_small_buffer, BURST_MAX_SIZE, 10);
+                       ^~~~~~~~~~~~~
+                       IS_TIM_INSTANCE
+make: *** [Optimized_STM32_ILI9341/subdir.mk:27: Optimized_STM32_ILI9341/ILI9341_GFX.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:30:30 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:31:51 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:32:37 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:32:45 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:33:51 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c: In function 'ILI9341_Draw_Image':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:480:23: error: 'HSPI_INSTANCE' undeclared (first use in this function); did you mean 'IS_TIM_INSTANCE'?
+     HAL_SPI_Transmit(&HSPI_INSTANCE, (unsigned char*)Temp_small_buffer, BURST_MAX_SIZE, 10);
+                       ^~~~~~~~~~~~~
+                       IS_TIM_INSTANCE
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:480:23: note: each undeclared identifier is reported only once for each function it appears in
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c: In function 'ILI9341_Draw_ImageF':
+/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c:578:23: error: 'HSPI_INSTANCE' undeclared (first use in this function); did you mean 'IS_TIM_INSTANCE'?
+     HAL_SPI_Transmit(&HSPI_INSTANCE, (unsigned char*)Temp_small_buffer, BURST_MAX_SIZE, 10);
+                       ^~~~~~~~~~~~~
+                       IS_TIM_INSTANCE
+make: *** [Optimized_STM32_ILI9341/subdir.mk:27: Optimized_STM32_ILI9341/ILI9341_GFX.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+21:33:56 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:39:03 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_GFX.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_GFX.d" -MT"Optimized_STM32_ILI9341/ILI9341_GFX.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_GFX.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/ILI9341_STM32_Driver.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.d" -MT"Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/ILI9341_STM32_Driver.o"
+arm-none-eabi-gcc "/home/chris/Projects/Embedded/Optimized_STM32_ILI9341/STMBasicGui.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Optimized_STM32_ILI9341/STMBasicGui.d" -MT"Optimized_STM32_ILI9341/STMBasicGui.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Optimized_STM32_ILI9341/STMBasicGui.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/LedManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/LedManager.d" -MT"Core/Src/UvboxManager/LedManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/LedManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/RotaryEncoder.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/RotaryEncoder.d" -MT"Core/Src/UvboxManager/RotaryEncoder.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/RotaryEncoder.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/TimeoutManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/TimeoutManager.d" -MT"Core/Src/UvboxManager/TimeoutManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/TimeoutManager.o"
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+21:39:14 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+22:59:58 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20836	    128	   2152	  23116	   5a4c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+23:01:29 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21028	    128	   2152	  23308	   5b0c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+Finished building: default.size.stdout
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
+ 
+23:01:48 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+make -j4 all 
+arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21028	    128	   2152	  23308	   5b0c	UV_LED_DRIVER_SW_STM32L051.elf
+Finished building: default.size.stdout
+ 

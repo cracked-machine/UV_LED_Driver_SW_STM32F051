@@ -35,15 +35,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  15 .debug_ranges 00000c40  00000000  00000000  000350d0  2**3
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_macro  00010c38  00000000  00000000  00035d10  2**0
+ 16 .debug_macro  00010eaf  00000000  00000000  00035d10  2**0
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_line   0000dc5c  00000000  00000000  00046948  2**0
+ 17 .debug_line   0000dc5c  00000000  00000000  00046bbf  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    00057ae2  00000000  00000000  000545a4  2**0
+ 18 .debug_str    00057ae2  00000000  00000000  0005481b  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  000ac086  2**0
+ 19 .comment      0000007b  00000000  00000000  000ac2fd  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000031c8  00000000  00000000  000ac104  2**2
+ 20 .debug_frame  000031c8  00000000  00000000  000ac378  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -1278,8 +1278,8 @@ void UM_Setup()
 	  // enable TFT ILI9341 driver
 	  ILI9341_Init();
  8000812:	f003 f834 	bl	800387e <ILI9341_Init>
-	  ILI9341_Set_Rotation(SCREEN_HORIZONTAL_2);
- 8000816:	2003      	movs	r0, #3
+	  ILI9341_Set_Rotation(SCREEN_HORIZONTAL_1);
+ 8000816:	2001      	movs	r0, #1
  8000818:	f003 fcd6 	bl	80041c8 <ILI9341_Set_Rotation>
 	  ILI9341_Fill_Screen(BLACK);
  800081c:	2000      	movs	r0, #0
