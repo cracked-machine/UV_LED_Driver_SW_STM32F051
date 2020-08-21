@@ -10,15 +10,18 @@
 
 typedef enum
 {
-	UVBOX_LidOpen = 0x0,
-	UVBOX_LidClosed
-
+	UVBOX_TimerReset = 0x0,
+	UVBOX_TimerRunning,
+	UVBOX_TimerExpired
+			// timer has expired and lid has been lifted
 } UVBOX_SystemStateTypedef;
 
 typedef enum
 {
-	UVBOX_evLidOpened = 0x0,
-	UVBOX_evLidClosed,
+	UVBOX_evStartTimer = 0x0,
+	UVBOX_evStopTimer,
+	UVBOX_evResetTimer
+
 } UVBOX_SystemEventsTypedef;
 
 

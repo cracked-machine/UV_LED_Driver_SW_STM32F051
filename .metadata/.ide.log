@@ -10397,3 +10397,718 @@
 
 
 2020-07-20 23:09:42,213 [INFO] Activator:177 - !SESSION log4j initialized
+2020-08-21 19:59:09,109 [INFO] Activator:178 - 
+
+
+2020-08-21 19:59:09,113 [INFO] Activator:179 - !SESSION log4j initialized
+2020-08-21 19:59:28,332 [INFO] ApplicationProperties:181 - Using Application install path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643
+2020-08-21 19:59:28,347 [INFO] DbMcusXml:70 - Set database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//mcu/
+2020-08-21 19:59:28,351 [INFO] DbBoardsPdsc:56 - Set plugin database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/boardmanager/
+2020-08-21 19:59:28,351 [INFO] DbMcus:258 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/mcufinder/images/
+2020-08-21 19:59:28,352 [INFO] DbBoards:264 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/mcufinder/images/
+2020-08-21 19:59:28,354 [INFO] DbExamples:326 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/mcufinder/images/
+2020-08-21 19:59:28,364 [INFO] DbMcusDocs:112 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,367 [INFO] DbMcusJson:63 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,367 [INFO] DbBoardsDocs:112 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,369 [INFO] DbBoardsJson:56 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,374 [INFO] CrossReferenceDbSqlite:196 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/cs/
+2020-08-21 19:59:28,378 [INFO] DbExamplesSqlite:800 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,496 [INFO] RulesReader:52 - Compatibility file has been processed (209 Rules)
+2020-08-21 19:59:28,582 [INFO] MicroXplorer:564 - Detected Java Version = 1.8.0_202
+2020-08-21 19:59:28,583 [INFO] DbMcusXml:70 - Set database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//mcu/
+2020-08-21 19:59:28,583 [INFO] DbBoardsPdsc:56 - Set plugin database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/boardmanager/
+2020-08-21 19:59:28,584 [INFO] DbMcus:258 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/mcufinder/images/
+2020-08-21 19:59:28,585 [INFO] DbBoards:264 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/mcufinder/images/
+2020-08-21 19:59:28,585 [INFO] DbExamples:326 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/mcufinder/images/
+2020-08-21 19:59:28,585 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,586 [INFO] DbMcusDocs:112 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,586 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,586 [INFO] DbMcusJson:63 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,586 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,586 [INFO] DbBoardsDocs:112 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,587 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,587 [INFO] DbBoardsJson:56 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,587 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,587 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,588 [INFO] CrossReferenceDbSqlite:196 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/cs/
+2020-08-21 19:59:28,588 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,588 [INFO] DbExamplesSqlite:800 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,743 [INFO] MainPanel:189 - HeapMemory: 319815680
+2020-08-21 19:59:28,929 [INFO] DbMcusXml:70 - Set database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//mcu/
+2020-08-21 19:59:28,929 [INFO] DbBoardsPdsc:56 - Set plugin database path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/boardmanager/
+2020-08-21 19:59:28,929 [INFO] DbMcus:258 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/mcufinder/images/
+2020-08-21 19:59:28,930 [INFO] DbBoards:264 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/mcufinder/images/
+2020-08-21 19:59:28,930 [INFO] DbExamples:326 - Set plugin images path to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//plugins/mcufinder/images/
+2020-08-21 19:59:28,931 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,931 [INFO] DbMcusDocs:112 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,931 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,931 [INFO] DbMcusJson:63 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,932 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,932 [INFO] DbBoardsDocs:112 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,932 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,932 [INFO] DbBoardsJson:56 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,933 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,933 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,933 [INFO] CrossReferenceDbSqlite:196 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/cs/
+2020-08-21 19:59:28,933 [WARN] DbFile:36 - Overriding database path with different value: /home/chris/.stmcufinder/plugins/mcufinder/ => /home/chris/.stmcufinder/plugins/mcufinder
+2020-08-21 19:59:28,934 [INFO] DbExamplesSqlite:800 - Set database path to: /home/chris/.stmcufinder/plugins/mcufinder//mcu/
+2020-08-21 19:59:28,951 [INFO] ApplicationProperties:181 - Using Application install path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643
+2020-08-21 19:59:28,953 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2020-08-21 19:59:28,955 [INFO] PluginManage:292 - Check plugin analytics
+2020-08-21 19:59:29,128 [INFO] AnalyticsPlugin:203 - Accepted Software Licenses: 
+2020-08-21 19:59:29,129 [INFO] AnalyticsPlugin:205 - Accepted CMSIS Pack Licenses: 
+2020-08-21 19:59:29,129 [INFO] AnalyticsPlugin:207 - Accepted Firmware Licenses: 
+2020-08-21 19:59:29,129 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-08-21 19:59:29,129 [INFO] PluginManage:292 - Check plugin clock
+2020-08-21 19:59:29,144 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-08-21 19:59:29,144 [INFO] PluginManage:292 - Check plugin ddr
+2020-08-21 19:59:29,147 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-08-21 19:59:29,147 [INFO] PluginManage:292 - Check plugin filemanager
+2020-08-21 19:59:29,277 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-08-21 19:59:29,278 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-08-21 19:59:29,285 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-08-21 19:59:29,285 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-08-21 19:59:29,296 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-08-21 19:59:29,296 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-08-21 19:59:29,328 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-08-21 19:59:29,328 [INFO] PluginManage:292 - Check plugin power
+2020-08-21 19:59:29,341 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-08-21 19:59:29,341 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-08-21 19:59:29,358 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-08-21 19:59:29,358 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-08-21 19:59:29,424 [INFO] ThirdPartyDb:333 - Open Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 22 ms. number of Sw pack : 14
+2020-08-21 19:59:29,430 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-08-21 19:59:29,430 [INFO] PluginManage:292 - Check plugin tools
+2020-08-21 19:59:29,433 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-08-21 19:59:29,433 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-08-21 19:59:29,653 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2020-08-21 19:59:29,654 [INFO] PluginManage:292 - Check plugin updater
+2020-08-21 19:59:29,671 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-08-21 19:59:29,671 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2020-08-21 19:59:29,834 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-21 19:59:29,902 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,902 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-08-21 19:59:29,908 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,908 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-08-21 19:59:29,910 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,910 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-08-21 19:59:29,913 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,913 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-08-21 19:59:29,916 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,916 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-08-21 19:59:29,918 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,918 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-08-21 19:59:29,921 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,921 [INFO] PluginManager:200 - loadIPPluginJar : add openamp
+2020-08-21 19:59:29,923 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,923 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-08-21 19:59:29,925 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,925 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-08-21 19:59:29,932 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,933 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-08-21 19:59:29,937 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,938 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-08-21 19:59:29,973 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,974 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-08-21 19:59:29,983 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,983 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-08-21 19:59:29,985 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,985 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-08-21 19:59:29,989 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,990 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-08-21 19:59:29,992 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,992 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-08-21 19:59:29,995 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:29,996 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-08-21 19:59:30,000 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,000 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-08-21 19:59:30,004 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,004 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-08-21 19:59:30,010 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,010 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-08-21 19:59:30,014 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,015 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-08-21 19:59:30,016 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,016 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-08-21 19:59:30,018 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,018 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-08-21 19:59:30,023 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,023 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-08-21 19:59:30,025 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,025 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-08-21 19:59:30,033 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,037 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-08-21 19:59:30,040 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,040 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-08-21 19:59:30,075 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,076 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-08-21 19:59:30,083 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,084 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-08-21 19:59:30,086 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,086 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-08-21 19:59:30,089 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,089 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-08-21 19:59:30,092 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,093 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-08-21 19:59:30,095 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,096 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-08-21 19:59:30,098 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,099 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-08-21 19:59:30,106 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,106 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-08-21 19:59:30,108 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,109 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-08-21 19:59:30,112 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,113 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-08-21 19:59:30,116 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:30,116 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-08-21 19:59:30,430 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: null
+2020-08-21 19:59:31,271 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-08-21 19:59:31,422 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-08-21 19:59:31,423 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-08-21 19:59:31,423 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-08-21 19:59:31,424 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-08-21 19:59:31,427 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-21 19:59:31,428 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-08-21 19:59:31,434 [ERROR] Updater:967 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2020-08-21 19:59:31,436 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.linux64_1.4.0.202007081208/tools/bin
+2020-08-21 19:59:31,439 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.linux64_1.4.0.202007081208/tools/bin/STM32_Programmer_CLI -l
+2020-08-21 19:59:31,640 [INFO] MainDdrPanel:49 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.linux64_1.4.0.202007081208/tools/bin
+2020-08-21 19:59:31,643 [INFO] Updater:904 - Updater Version found : 6.0.1
+2020-08-21 19:59:31,673 [INFO] ApplicationProperties:181 - Using Application install path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643
+2020-08-21 19:59:31,849 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-21 19:59:31,851 [INFO] MainUpdater:239 - Updater Check For Update Now.
+2020-08-21 19:59:31,851 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-08-21 19:59:31,890 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2020-08-21 19:59:31,959 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-21 19:59:31,961 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-21 19:59:32,140 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-08-21 19:59:32,141 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-08-21 19:59:32,141 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-08-21 19:59:32,141 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-08-21 19:59:32,142 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-08-21 19:59:32,147 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-21 19:59:32,148 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 343184864 Bytes (375390208)
+2020-08-21 19:59:32,155 [INFO] MicroXplorer:384 - Change Database Path : /home/chris/.stm32cubemx/databases/DB.5.0.60/db/
+2020-08-21 19:59:32,155 [INFO] MicroXplorer:414 - Change Database Version : DB.5.0.60
+2020-08-21 19:59:32,156 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] *****Project Manager Settings
+2020-08-21 19:59:32,430 [WARN] IntegrityCheckThread:61 - waiting for thirdparty lock release [integrity check]
+2020-08-21 19:59:32,431 [INFO] IntegrityCheckThread:63 - entering critical section [integrity check]
+2020-08-21 19:59:32,460 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-21 19:59:32,496 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-21 19:59:32,507 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-21 19:59:32,529 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-21 19:59:32,540 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-21 19:59:32,553 [INFO] IntegrityCheckThread:76 - exiting critical section [integrity check]
+2020-08-21 19:59:32,553 [INFO] IntegrityCheckThread:79 - End integrity checks thread
+2020-08-21 19:59:48,091 [INFO] OpenFileManager:274 - Change cursor
+2020-08-21 19:59:50,470 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874340921, 1595874340922]
+2020-08-21 19:59:50,471 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0 CMSIS id : 1595874340167
+2020-08-21 19:59:50,471 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874340921, 1595874340922]
+2020-08-21 19:59:50,471 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0 CMSIS id : 1595874340169
+2020-08-21 19:59:50,471 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343153, 1595874340922]
+2020-08-21 19:59:50,471 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0+ CMSIS id : 1595874340171
+2020-08-21 19:59:50,471 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343153, 1595874340922]
+2020-08-21 19:59:50,472 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0+ CMSIS id : 1595874340173
+2020-08-21 19:59:50,472 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341735, 1595874340922]
+2020-08-21 19:59:50,472 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM1 CMSIS id : 1595874340175
+2020-08-21 19:59:50,472 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341735, 1595874340922]
+2020-08-21 19:59:50,472 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM1 CMSIS id : 1595874340177
+2020-08-21 19:59:50,472 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344189, 1595874340922]
+2020-08-21 19:59:50,472 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM3 CMSIS id : 1595874340179
+2020-08-21 19:59:50,472 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344189, 1595874340922]
+2020-08-21 19:59:50,473 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM3 CMSIS id : 1595874340181
+2020-08-21 19:59:50,473 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343607, 1595874340922]
+2020-08-21 19:59:50,473 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM4 CMSIS id : 1595874340183
+2020-08-21 19:59:50,473 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343607, 1595874340922]
+2020-08-21 19:59:50,473 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM4 CMSIS id : 1595874340185
+2020-08-21 19:59:50,473 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343447, 1595874340922]
+2020-08-21 19:59:50,473 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM7 CMSIS id : 1595874340187
+2020-08-21 19:59:50,474 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343447, 1595874340922]
+2020-08-21 19:59:50,474 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM7 CMSIS id : 1595874340189
+2020-08-21 19:59:50,474 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341008, 1595874340922]
+2020-08-21 19:59:50,475 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM23 CMSIS id : 1595874340191
+2020-08-21 19:59:50,475 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341008, 1595874340922]
+2020-08-21 19:59:50,475 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM23 CMSIS id : 1595874340193
+2020-08-21 19:59:50,475 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342949, 1595874340922]
+2020-08-21 19:59:50,475 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM33 CMSIS id : 1595874340195
+2020-08-21 19:59:50,475 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342949, 1595874340922]
+2020-08-21 19:59:50,476 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM33 CMSIS id : 1595874340197
+2020-08-21 19:59:50,476 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344233, 1595874340922]
+2020-08-21 19:59:50,476 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM35P CMSIS id : 1595874340199
+2020-08-21 19:59:50,476 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344233, 1595874340922]
+2020-08-21 19:59:50,476 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM35P CMSIS id : 1595874340201
+2020-08-21 19:59:50,476 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343823, 1595874340922]
+2020-08-21 19:59:50,476 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC000 CMSIS id : 1595874340203
+2020-08-21 19:59:50,477 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343823, 1595874340922]
+2020-08-21 19:59:50,477 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC000 CMSIS id : 1595874340205
+2020-08-21 19:59:50,477 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343631, 1595874340922]
+2020-08-21 19:59:50,480 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC300 CMSIS id : 1595874340207
+2020-08-21 19:59:50,480 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343631, 1595874340922]
+2020-08-21 19:59:50,480 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC300 CMSIS id : 1595874340209
+2020-08-21 19:59:50,481 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342054, 1595874340922]
+2020-08-21 19:59:50,481 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MBL CMSIS id : 1595874340211
+2020-08-21 19:59:50,481 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342054, 1595874340922]
+2020-08-21 19:59:50,481 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MBL CMSIS id : 1595874340213
+2020-08-21 19:59:50,481 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342689, 1595874340922]
+2020-08-21 19:59:50,481 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MML CMSIS id : 1595874340215
+2020-08-21 19:59:50,482 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342689, 1595874340922]
+2020-08-21 19:59:50,482 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MML CMSIS id : 1595874340217
+2020-08-21 19:59:50,482 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344297, 1595874340922]
+2020-08-21 19:59:50,482 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv81MML CMSIS id : 1595874340219
+2020-08-21 19:59:50,482 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341240, 1595874340922]
+2020-08-21 19:59:50,494 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA5 CMSIS id : 1595874340221
+2020-08-21 19:59:50,495 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343502, 1595874340922]
+2020-08-21 19:59:50,495 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA7 CMSIS id : 1595874340223
+2020-08-21 19:59:50,495 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343811, 1595874340922]
+2020-08-21 19:59:50,495 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA9 CMSIS id : 1595874340225
+2020-08-21 19:59:50,496 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874340908]
+2020-08-21 19:59:50,496 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1595874340235
+2020-08-21 19:59:50,499 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343484, 1595874340991]
+2020-08-21 19:59:50,504 [WARN] ApiManager:274 - Cannot register API 'CMSIS:RTOS' from pack ARM.CMSIS.5.6.0: no header file found
+2020-08-21 19:59:50,511 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2020-08-21 19:59:50,512 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2020-08-21 19:59:50,512 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2020-08-21 19:59:50,512 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2020-08-21 19:59:50,512 [WARN] ModelIntegratedComponent:188 - Missing modes for component 1595874344360
+2020-08-21 19:59:50,884 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 393116016 Bytes (517996544)
+2020-08-21 19:59:50,886 [INFO] DbMcusXml:100 - Load MCU database from /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db//mcu/families.xml
+2020-08-21 19:59:51,716 [INFO] DbMcusJson:92 - JSON generation date=Mon Jul 27 13:58:30 BST 2020 (1595854710)
+2020-08-21 19:59:52,637 [INFO] DbMcus:175 - Found 1761 MCUs (1722 are supported by CubeMX, 1728 are visible in CubeMX)
+2020-08-21 19:59:52,638 [INFO] ApiDb:201 - Load user favorites file /home/chris/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2020-08-21 19:59:52,638 [INFO] ApiDb:205 - User favorites MCUs=[]
+2020-08-21 19:59:52,638 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2020-08-21 19:59:52,640 [WARN] ThirdParty:741 - waiting for thirdparty lock release [change project]
+2020-08-21 19:59:52,640 [INFO] ThirdParty:743 - entering critical section [change project]
+2020-08-21 19:59:52,641 [INFO] ThirdParty:968 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-08-21 19:59:52,641 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-08-21 19:59:52,641 [INFO] ThirdParty:749 - exiting critical section [change project]
+2020-08-21 19:59:52,927 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-21 19:59:52,932 [INFO] PinOutPanel:1418 - setPackage(STM32F051K8Tx,LQFP32)
+2020-08-21 19:59:53,767 [INFO] UtilMem:74 - Before build in PCC Used Memory: 369735776 Bytes (684720128)
+2020-08-21 19:59:54,221 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 19:59:54,314 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 19:59:54,399 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 19:59:54,405 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 19:59:54,803 [INFO] UtilMem:74 - After build in PCC Used Memory: 426881128 Bytes (684720128)
+2020-08-21 19:59:54,842 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,843 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,843 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,843 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,843 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,843 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,843 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,844 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,844 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,844 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,844 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,844 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,845 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,845 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,845 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,845 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,845 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,846 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,846 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,846 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,846 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,846 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,846 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,847 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,847 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,847 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,847 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,848 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,848 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,848 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,849 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,849 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 19:59:54,896 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-08-21 19:59:55,168 [INFO] OpenFileManager:294 - Restore cursor
+2020-08-21 19:59:55,210 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 462699872 Bytes (684720128)
+2020-08-21 20:01:23,364 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] ===========>/home/chris/opt/STM32CubeIDE/STM32Cube/Repository
+2020-08-21 20:01:23,385 [WARN] IntegrityCheckThread:61 - waiting for thirdparty lock release [integrity check]
+2020-08-21 20:01:23,385 [INFO] IntegrityCheckThread:63 - entering critical section [integrity check]
+2020-08-21 20:01:23,388 [ERROR] Engine:165 - file does not exist : /home/chris/opt/STM32CubeIDE/STM32Cube/Repository/Packs/ARM/CMSIS/5.6.0/CubeMX/ARM.CMSIS.5.6.0_Modes.xml
+2020-08-21 20:01:23,389 [ERROR] Engine:165 - file does not exist : /home/chris/opt/STM32CubeIDE/STM32Cube/Repository/Packs/ARM/CMSIS/5.6.0/CubeMX/ARM.CMSIS.5.6.0_Configs.xml
+2020-08-21 20:01:23,390 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-21 20:01:23,399 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-21 20:01:23,402 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-21 20:01:23,472 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (/home/chris/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-08-21 20:01:23,474 [INFO] IntegrityCheckThread:76 - exiting critical section [integrity check]
+2020-08-21 20:01:23,474 [INFO] IntegrityCheckThread:79 - End integrity checks thread
+2020-08-21 20:01:27,245 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-21 20:01:27,246 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-21 20:01:27,296 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-08-21 20:01:27,296 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-08-21 20:01:27,297 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-08-21 20:01:27,297 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-08-21 20:01:27,297 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-08-21 20:01:27,299 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-21 20:01:27,313 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 358366800 Bytes (684720128)
+2020-08-21 20:01:27,326 [INFO] MicroXplorer:384 - Change Database Path : /home/chris/.stm32cubemx/databases/DB.5.0.60/db/
+2020-08-21 20:01:27,326 [INFO] MicroXplorer:414 - Change Database Version : DB.5.0.60
+2020-08-21 20:01:27,326 [INFO] OpenFileManager:274 - Change cursor
+2020-08-21 20:01:27,348 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-08-21 20:01:28,525 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874340921, 1595874340922]
+2020-08-21 20:01:28,525 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0 CMSIS id : 1595874340167
+2020-08-21 20:01:28,525 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874340921, 1595874340922]
+2020-08-21 20:01:28,525 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0 CMSIS id : 1595874340169
+2020-08-21 20:01:28,526 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343153, 1595874340922]
+2020-08-21 20:01:28,526 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0+ CMSIS id : 1595874340171
+2020-08-21 20:01:28,526 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343153, 1595874340922]
+2020-08-21 20:01:28,526 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0+ CMSIS id : 1595874340173
+2020-08-21 20:01:28,526 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341735, 1595874340922]
+2020-08-21 20:01:28,526 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM1 CMSIS id : 1595874340175
+2020-08-21 20:01:28,526 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341735, 1595874340922]
+2020-08-21 20:01:28,526 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM1 CMSIS id : 1595874340177
+2020-08-21 20:01:28,526 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344189, 1595874340922]
+2020-08-21 20:01:28,527 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM3 CMSIS id : 1595874340179
+2020-08-21 20:01:28,527 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344189, 1595874340922]
+2020-08-21 20:01:28,527 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM3 CMSIS id : 1595874340181
+2020-08-21 20:01:28,527 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343607, 1595874340922]
+2020-08-21 20:01:28,527 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM4 CMSIS id : 1595874340183
+2020-08-21 20:01:28,527 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343607, 1595874340922]
+2020-08-21 20:01:28,527 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM4 CMSIS id : 1595874340185
+2020-08-21 20:01:28,527 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343447, 1595874340922]
+2020-08-21 20:01:28,528 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM7 CMSIS id : 1595874340187
+2020-08-21 20:01:28,528 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343447, 1595874340922]
+2020-08-21 20:01:28,528 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM7 CMSIS id : 1595874340189
+2020-08-21 20:01:28,528 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341008, 1595874340922]
+2020-08-21 20:01:28,528 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM23 CMSIS id : 1595874340191
+2020-08-21 20:01:28,528 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341008, 1595874340922]
+2020-08-21 20:01:28,528 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM23 CMSIS id : 1595874340193
+2020-08-21 20:01:28,529 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342949, 1595874340922]
+2020-08-21 20:01:28,529 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM33 CMSIS id : 1595874340195
+2020-08-21 20:01:28,529 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342949, 1595874340922]
+2020-08-21 20:01:28,529 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM33 CMSIS id : 1595874340197
+2020-08-21 20:01:28,529 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344233, 1595874340922]
+2020-08-21 20:01:28,529 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM35P CMSIS id : 1595874340199
+2020-08-21 20:01:28,529 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344233, 1595874340922]
+2020-08-21 20:01:28,530 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM35P CMSIS id : 1595874340201
+2020-08-21 20:01:28,530 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343823, 1595874340922]
+2020-08-21 20:01:28,530 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC000 CMSIS id : 1595874340203
+2020-08-21 20:01:28,530 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343823, 1595874340922]
+2020-08-21 20:01:28,530 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC000 CMSIS id : 1595874340205
+2020-08-21 20:01:28,530 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343631, 1595874340922]
+2020-08-21 20:01:28,530 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC300 CMSIS id : 1595874340207
+2020-08-21 20:01:28,530 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343631, 1595874340922]
+2020-08-21 20:01:28,530 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC300 CMSIS id : 1595874340209
+2020-08-21 20:01:28,530 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342054, 1595874340922]
+2020-08-21 20:01:28,531 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MBL CMSIS id : 1595874340211
+2020-08-21 20:01:28,531 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342054, 1595874340922]
+2020-08-21 20:01:28,531 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MBL CMSIS id : 1595874340213
+2020-08-21 20:01:28,531 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342689, 1595874340922]
+2020-08-21 20:01:28,531 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MML CMSIS id : 1595874340215
+2020-08-21 20:01:28,531 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342689, 1595874340922]
+2020-08-21 20:01:28,531 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MML CMSIS id : 1595874340217
+2020-08-21 20:01:28,531 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344297, 1595874340922]
+2020-08-21 20:01:28,531 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv81MML CMSIS id : 1595874340219
+2020-08-21 20:01:28,532 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341240, 1595874340922]
+2020-08-21 20:01:28,532 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA5 CMSIS id : 1595874340221
+2020-08-21 20:01:28,532 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343502, 1595874340922]
+2020-08-21 20:01:28,532 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA7 CMSIS id : 1595874340223
+2020-08-21 20:01:28,532 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343811, 1595874340922]
+2020-08-21 20:01:28,532 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA9 CMSIS id : 1595874340225
+2020-08-21 20:01:28,532 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874340908]
+2020-08-21 20:01:28,533 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1595874340235
+2020-08-21 20:01:28,533 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343484, 1595874340991]
+2020-08-21 20:01:28,536 [WARN] ApiManager:274 - Cannot register API 'CMSIS:RTOS' from pack ARM.CMSIS.5.6.0: no header file found
+2020-08-21 20:01:28,536 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2020-08-21 20:01:28,537 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2020-08-21 20:01:28,537 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2020-08-21 20:01:28,537 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2020-08-21 20:01:28,537 [WARN] ModelIntegratedComponent:188 - Missing modes for component 1595874344360
+2020-08-21 20:01:28,675 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 348533224 Bytes (684720128)
+2020-08-21 20:01:28,675 [WARN] ThirdParty:741 - waiting for thirdparty lock release [change project]
+2020-08-21 20:01:28,675 [INFO] ThirdParty:743 - entering critical section [change project]
+2020-08-21 20:01:28,676 [INFO] ThirdParty:968 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-08-21 20:01:28,676 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-08-21 20:01:28,676 [INFO] ThirdParty:749 - exiting critical section [change project]
+2020-08-21 20:01:28,835 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-21 20:01:28,836 [INFO] PinOutPanel:1418 - setPackage(STM32F051K8Tx,LQFP32)
+2020-08-21 20:01:29,581 [INFO] UtilMem:74 - Before build in PCC Used Memory: 336617776 Bytes (684720128)
+2020-08-21 20:01:29,725 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 20:01:29,765 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 20:01:29,822 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 20:01:29,826 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 20:01:29,877 [INFO] UtilMem:74 - After build in PCC Used Memory: 380135720 Bytes (684720128)
+2020-08-21 20:01:29,896 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,896 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,896 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,896 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,896 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,897 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,897 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,897 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,897 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,898 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,898 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,898 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,898 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,898 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,898 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,899 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,899 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,899 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,900 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,900 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,900 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,900 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,900 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,900 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,900 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,901 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,901 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,901 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,901 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,902 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,902 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:29,902 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:01:30,039 [INFO] OpenFileManager:294 - Restore cursor
+2020-08-21 20:18:54,478 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-21 20:18:54,479 [INFO] MainUpdater:2268 - connection check result : 10
+2020-08-21 20:18:54,531 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-08-21 20:18:54,531 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-08-21 20:18:54,531 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-08-21 20:18:54,531 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-08-21 20:18:54,531 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-08-21 20:18:54,532 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-21 20:18:54,534 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 559347536 Bytes (684720128)
+2020-08-21 20:18:54,537 [INFO] MicroXplorer:384 - Change Database Path : /home/chris/.stm32cubemx/databases/DB.5.0.60/db/
+2020-08-21 20:18:54,537 [INFO] MicroXplorer:414 - Change Database Version : DB.5.0.60
+2020-08-21 20:18:54,537 [INFO] OpenFileManager:274 - Change cursor
+2020-08-21 20:18:55,563 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874340921, 1595874340922]
+2020-08-21 20:18:55,564 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0 CMSIS id : 1595874340167
+2020-08-21 20:18:55,564 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874340921, 1595874340922]
+2020-08-21 20:18:55,564 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0 CMSIS id : 1595874340169
+2020-08-21 20:18:55,564 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343153, 1595874340922]
+2020-08-21 20:18:55,564 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0+ CMSIS id : 1595874340171
+2020-08-21 20:18:55,564 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343153, 1595874340922]
+2020-08-21 20:18:55,564 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM0+ CMSIS id : 1595874340173
+2020-08-21 20:18:55,564 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341735, 1595874340922]
+2020-08-21 20:18:55,565 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM1 CMSIS id : 1595874340175
+2020-08-21 20:18:55,565 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341735, 1595874340922]
+2020-08-21 20:18:55,565 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM1 CMSIS id : 1595874340177
+2020-08-21 20:18:55,565 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344189, 1595874340922]
+2020-08-21 20:18:55,565 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM3 CMSIS id : 1595874340179
+2020-08-21 20:18:55,565 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344189, 1595874340922]
+2020-08-21 20:18:55,565 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM3 CMSIS id : 1595874340181
+2020-08-21 20:18:55,565 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343607, 1595874340922]
+2020-08-21 20:18:55,565 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM4 CMSIS id : 1595874340183
+2020-08-21 20:18:55,566 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343607, 1595874340922]
+2020-08-21 20:18:55,566 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM4 CMSIS id : 1595874340185
+2020-08-21 20:18:55,566 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343447, 1595874340922]
+2020-08-21 20:18:55,566 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM7 CMSIS id : 1595874340187
+2020-08-21 20:18:55,566 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343447, 1595874340922]
+2020-08-21 20:18:55,566 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM7 CMSIS id : 1595874340189
+2020-08-21 20:18:55,566 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341008, 1595874340922]
+2020-08-21 20:18:55,566 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM23 CMSIS id : 1595874340191
+2020-08-21 20:18:55,566 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341008, 1595874340922]
+2020-08-21 20:18:55,566 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM23 CMSIS id : 1595874340193
+2020-08-21 20:18:55,567 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342949, 1595874340922]
+2020-08-21 20:18:55,567 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM33 CMSIS id : 1595874340195
+2020-08-21 20:18:55,567 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342949, 1595874340922]
+2020-08-21 20:18:55,567 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM33 CMSIS id : 1595874340197
+2020-08-21 20:18:55,567 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344233, 1595874340922]
+2020-08-21 20:18:55,567 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM35P CMSIS id : 1595874340199
+2020-08-21 20:18:55,567 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344233, 1595874340922]
+2020-08-21 20:18:55,567 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCM35P CMSIS id : 1595874340201
+2020-08-21 20:18:55,567 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343823, 1595874340922]
+2020-08-21 20:18:55,568 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC000 CMSIS id : 1595874340203
+2020-08-21 20:18:55,568 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343823, 1595874340922]
+2020-08-21 20:18:55,568 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC000 CMSIS id : 1595874340205
+2020-08-21 20:18:55,568 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343631, 1595874340922]
+2020-08-21 20:18:55,568 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC300 CMSIS id : 1595874340207
+2020-08-21 20:18:55,568 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343631, 1595874340922]
+2020-08-21 20:18:55,568 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMSC300 CMSIS id : 1595874340209
+2020-08-21 20:18:55,568 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342054, 1595874340922]
+2020-08-21 20:18:55,568 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MBL CMSIS id : 1595874340211
+2020-08-21 20:18:55,569 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342054, 1595874340922]
+2020-08-21 20:18:55,569 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MBL CMSIS id : 1595874340213
+2020-08-21 20:18:55,569 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342689, 1595874340922]
+2020-08-21 20:18:55,569 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MML CMSIS id : 1595874340215
+2020-08-21 20:18:55,569 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874342689, 1595874340922]
+2020-08-21 20:18:55,569 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv8MML CMSIS id : 1595874340217
+2020-08-21 20:18:55,569 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874344297, 1595874340922]
+2020-08-21 20:18:55,569 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMv81MML CMSIS id : 1595874340219
+2020-08-21 20:18:55,569 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874341240, 1595874340922]
+2020-08-21 20:18:55,570 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA5 CMSIS id : 1595874340221
+2020-08-21 20:18:55,570 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343502, 1595874340922]
+2020-08-21 20:18:55,570 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA7 CMSIS id : 1595874340223
+2020-08-21 20:18:55,570 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343811, 1595874340922]
+2020-08-21 20:18:55,570 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : ARMCA9 CMSIS id : 1595874340225
+2020-08-21 20:18:55,570 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874340908]
+2020-08-21 20:18:55,570 [INFO] ThirdPartyModel:556 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1595874340235
+2020-08-21 20:18:55,571 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1595874343484, 1595874340991]
+2020-08-21 20:18:55,573 [WARN] ApiManager:274 - Cannot register API 'CMSIS:RTOS' from pack ARM.CMSIS.5.6.0: no header file found
+2020-08-21 20:18:55,573 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2020-08-21 20:18:55,573 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2020-08-21 20:18:55,574 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2020-08-21 20:18:55,574 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2020-08-21 20:18:55,574 [WARN] ModelIntegratedComponent:188 - Missing modes for component 1595874344360
+2020-08-21 20:18:55,669 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 569309000 Bytes (684720128)
+2020-08-21 20:18:55,669 [WARN] ThirdParty:741 - waiting for thirdparty lock release [change project]
+2020-08-21 20:18:55,669 [INFO] ThirdParty:743 - entering critical section [change project]
+2020-08-21 20:18:55,669 [INFO] ThirdParty:968 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-08-21 20:18:55,669 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-08-21 20:18:55,670 [INFO] ThirdParty:749 - exiting critical section [change project]
+2020-08-21 20:18:55,798 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-08-21 20:18:55,798 [INFO] PinOutPanel:1418 - setPackage(STM32F051K8Tx,LQFP32)
+2020-08-21 20:18:56,405 [INFO] UtilMem:74 - Before build in PCC Used Memory: 274561072 Bytes (684720128)
+2020-08-21 20:18:56,504 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 20:18:56,528 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 20:18:56,555 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 20:18:56,557 [INFO] SharedServices:71 - Folder for power plug-in: /home/chris/.stm32cubemx/plugins/power
+2020-08-21 20:18:56,598 [INFO] UtilMem:74 - After build in PCC Used Memory: 317552688 Bytes (684720128)
+2020-08-21 20:18:56,613 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,613 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,613 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,613 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,614 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,614 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,614 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,614 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,614 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,614 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,614 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,615 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,615 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,615 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,615 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,615 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,615 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,615 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,616 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,616 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,616 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,616 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,616 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,616 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,616 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,617 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,617 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,617 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,617 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,617 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,617 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,617 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-08-21 20:18:56,745 [INFO] OpenFileManager:294 - Restore cursor
+2020-08-21 20:19:01,038 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS, TIM1, TIM2, TIM3, TIM14]
+2020-08-21 20:19:14,875 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,2,26,682x563,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-08-21 20:22:48,319 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS, TIM1, TIM2, TIM3, TIM14]
+2020-08-21 20:22:48,351 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-08-21 20:27:25,911 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 497392160 Bytes (684720128)
+2020-08-21 20:27:27,145 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 508926496 Bytes (684720128)
+2020-08-21 20:27:29,373 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 540906024 Bytes (684720128)
+2020-08-21 20:27:29,974 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM6_7F0
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-08-21 20:27:29,975 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-08-21 20:27:29,976 [INFO] CodeGenerator:622 - code generatio: config db path: /home/chris/.stm32cubemx/databases/DB.5.0.60/db/
+2020-08-21 20:27:30,299 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-08-21 20:27:30,693 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-08-21 20:27:30,847 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-08-21 20:27:30,973 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-08-21 20:27:30,976 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-08-21 20:27:31,051 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-08-21 20:27:32,015 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-08-21 20:27:32,021 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-08-21 20:27:32,153 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-08-21 20:27:32,156 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-08-21 20:27:32,223 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-08-21 20:27:32,224 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-08-21 20:27:32,229 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-08-21 20:27:32,492 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-08-21 20:27:32,494 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-08-21 20:27:32,561 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-08-21 20:27:32,567 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-08-21 20:27:32,667 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-08-21 20:27:32,670 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-08-21 20:27:32,735 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-08-21 20:27:32,747 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-08-21 20:27:32,843 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-08-21 20:27:32,846 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-08-21 20:27:32,907 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-08-21 20:27:32,911 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-08-21 20:27:32,981 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-08-21 20:27:33,010 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-08-21 20:27:33,088 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-08-21 20:27:33,092 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-08-21 20:27:33,189 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-08-21 20:27:33,953 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 64mS.
+2020-08-21 20:27:33,959 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-08-21 20:27:34,233 [INFO] ConfigFileManager:1183 - The Die is : DIE440
+2020-08-21 20:27:34,247 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2020-08-21 20:27:34,279 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2020-08-21 20:27:34,454 [INFO] ApiDbMcu:456 - Load IP Config File for TOUCHSENSING
+2020-08-21 20:27:36,665 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2706mS.
+2020-08-21 20:27:36,666 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-08-21 20:27:36,666 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-08-21 20:29:11,939 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 388624768 Bytes (884998144)
+2020-08-21 20:29:13,385 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 401163096 Bytes (884998144)
+2020-08-21 20:29:14,913 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 447871352 Bytes (884998144)
+2020-08-21 20:29:15,086 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-08-21 20:29:15,087 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-08-21 20:29:15,087 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM6_7F0
+2020-08-21 20:29:15,087 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:29:15,087 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:29:15,087 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:29:15,087 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:29:15,087 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:29:15,087 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8F0
+2020-08-21 20:29:15,087 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-08-21 20:29:15,087 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-08-21 20:29:15,088 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-08-21 20:29:15,088 [INFO] CodeGenerator:622 - code generatio: config db path: /home/chris/.stm32cubemx/databases/DB.5.0.60/db/
+2020-08-21 20:29:15,298 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp_save
+2020-08-21 20:29:15,354 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/license.tmp
+2020-08-21 20:29:15,418 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c_save
+2020-08-21 20:29:15,479 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/gpio.c
+2020-08-21 20:29:15,481 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h_save
+2020-08-21 20:29:15,538 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/gpio.h
+2020-08-21 20:29:16,223 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-08-21 20:29:16,226 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c_save
+2020-08-21 20:29:16,316 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/spi.c
+2020-08-21 20:29:16,318 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h_save
+2020-08-21 20:29:16,375 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/spi.h
+2020-08-21 20:29:16,375 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-08-21 20:29:16,380 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c_save
+2020-08-21 20:29:16,534 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/tim.c
+2020-08-21 20:29:16,536 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h_save
+2020-08-21 20:29:16,594 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/tim.h
+2020-08-21 20:29:16,599 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c_save
+2020-08-21 20:29:16,770 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_it.c
+2020-08-21 20:29:16,772 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h_save
+2020-08-21 20:29:16,832 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_it.h
+2020-08-21 20:29:16,836 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c_save
+2020-08-21 20:29:16,914 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/stm32f0xx_hal_msp.c
+2020-08-21 20:29:16,915 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp_save
+2020-08-21 20:29:16,965 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/MXTmpFiles/system.tmp
+2020-08-21 20:29:16,967 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h_save
+2020-08-21 20:29:17,024 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/stm32f0xx_hal_conf.h
+2020-08-21 20:29:17,035 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h_save
+2020-08-21 20:29:17,093 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Inc/main.h
+2020-08-21 20:29:17,095 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c_save
+2020-08-21 20:29:17,176 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/main.c
+2020-08-21 20:29:17,615 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 15mS.
+2020-08-21 20:29:17,617 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-08-21 20:29:17,866 [INFO] ConfigFileManager:1183 - The Die is : DIE440
+2020-08-21 20:29:19,478 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1861mS.
+2020-08-21 20:29:19,479 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-08-21 20:29:19,479 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-08-21 21:35:00,157 [INFO] DbMcusDocs:145 - JSON generation date=Mon Jul 27 13:58:30 BST 2020 (1595854710)
+2020-08-21 21:35:00,286 [INFO] DbMcusDocs:81 - Found 580 MCUs documents
+2020-08-21 21:35:03,174 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-08-21 21:36:58,998 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-08-21 21:37:25,079 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,682x231,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-08-21 21:37:26,414 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-08-21 21:37:28,486 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]

@@ -1,10 +1,10 @@
-23:01:48 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+21:57:32 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
 make -j4 all 
 arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
    text	   data	    bss	    dec	    hex	filename
-  21028	    128	   2152	  23308	   5b0c	UV_LED_DRIVER_SW_STM32L051.elf
+  21144	    132	   2148	  23424	   5b80	UV_LED_DRIVER_SW_STM32L051.elf
 Finished building: default.size.stdout
  
 
-23:01:49 Build Finished. 0 errors, 0 warnings. (took 516ms)
+21:57:33 Build Finished. 0 errors, 0 warnings. (took 581ms)
 

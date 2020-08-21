@@ -41,7 +41,7 @@ UVBOX_SystemStateTypedef LM_EnableUVMode()
 
 	TM_StartTimer();
 
-	return UVBOX_LidClosed;
+	return UVBOX_TimerRunning;
 }
 
 /*
@@ -55,7 +55,7 @@ UVBOX_SystemStateTypedef LM_EnableUVMode()
  */
 UVBOX_SystemStateTypedef LM_DisableUVMode()
 {
-	LM_SetStatusLed(UVBOX_StatusLedRed);
+	//LM_SetStatusLed(UVBOX_StatusLedRed);  // not implemented in HW
 
 	UV_PWM_TIMER.Instance->CCR1 = 0;
 	UV_PWM_TIMER.Instance->CCR2 = 0;
@@ -63,12 +63,13 @@ UVBOX_SystemStateTypedef LM_DisableUVMode()
 	UV_PWM_TIMER.Instance->CCR4 = 0;
 
 	// restore the user LED brightness setting
-	LED_PWM_TIMER.Instance->CCR1 = previous_encoder_value;
+	if(previous_encoder_value != 0)
+		LED_PWM_TIMER.Instance->CCR1 = previous_encoder_value;
 
 	TM_StopTimer();
 	TM_ResetTimer();
 
-	return UVBOX_LidOpen;
+		return UVBOX_TimerExpired;
 }
 
 

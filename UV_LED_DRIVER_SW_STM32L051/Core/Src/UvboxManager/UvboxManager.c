@@ -53,6 +53,8 @@ void UM_UpdateDisplay()
 	char enc_cnt[20];
 	snprintf(enc_cnt, sizeof(enc_cnt), "%lu", LED_PWM_TIMER.Instance->CCR1);
 	ILI9341_Draw_Text(enc_cnt, 10, 200, WHITE, 2, BLACK);
+
+
 }
 
 /*
@@ -181,13 +183,13 @@ void UM_EXTI2_3_IRQHandler()
 	uint16_t debounce_interrupt_time = DEBOUNCE_TIMER.Instance->CNT;
 	if ((debounce_interrupt_time - UM_getLastDebounceTime()) > MAX_DEBOUNCE_DELAY)
 	{
-		if(EM_getSystemState())	// LID CLOSED
+		if(EM_getSystemState() == UVBOX_TimerReset)	// LID CLOSED
 		{
-			EM_ProcessEvent(UVBOX_evLidOpened);
+			EM_ProcessEvent(UVBOX_evStartTimer);
 		}
 		else
 		{
-			EM_ProcessEvent(UVBOX_evLidClosed);
+			EM_ProcessEvent(UVBOX_evResetTimer);
 		}
 	}
 	UM_SetLastDebounceTime(debounce_interrupt_time);

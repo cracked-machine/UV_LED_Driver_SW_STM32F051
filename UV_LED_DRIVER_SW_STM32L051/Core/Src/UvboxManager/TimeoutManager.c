@@ -8,7 +8,7 @@
 #include "TimeoutManager.h"
 #include "UvboxManager.h"
 
-#define DEFAULT_TIMEOUT 60
+#define DEFAULT_TIMEOUT 10
 uint16_t user_defined_timeout = DEFAULT_TIMEOUT;		// seconds
 uint16_t timer_count = DEFAULT_TIMEOUT;
 
@@ -46,8 +46,14 @@ void TM_CheckTimer()
 {
 	if(timer_count == 0)
 	{
-		EM_ProcessEvent(UVBOX_evLidOpened);
+		EM_ProcessEvent(UVBOX_evStopTimer);
 	}
+
+
+
+
+
+
 }
 
 void TM_StartTimer()

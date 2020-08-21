@@ -1,9 +1,9 @@
 UvboxManager.c:24:6:UM_DisplayRunningMsg	16	static
 UvboxManager.c:30:6:UM_DisplayExpiredMsg	16	static
 UvboxManager.c:49:6:UM_UpdateDisplay	40	static
-UvboxManager.c:66:6:UM_DisplayAsMinutesAndSeconds	64	static
-UvboxManager.c:88:6:UM_Setup	16	static
-UvboxManager.c:143:6:UM_EXTI0_1_IRQHandler	24	static
-UvboxManager.c:179:6:UM_EXTI2_3_IRQHandler	24	static
-UvboxManager.c:205:6:UM_SetLastDebounceTime	16	static
-UvboxManager.c:218:10:UM_getLastDebounceTime	8	static
+UvboxManager.c:68:6:UM_DisplayAsMinutesAndSeconds	64	static
+UvboxManager.c:90:6:UM_Setup	16	static
+UvboxManager.c:145:6:UM_EXTI0_1_IRQHandler	24	static
+UvboxManager.c:181:6:UM_EXTI2_3_IRQHandler	24	static
+UvboxManager.c:207:6:UM_SetLastDebounceTime	16	static
+UvboxManager.c:220:10:UM_getLastDebounceTime	8	static

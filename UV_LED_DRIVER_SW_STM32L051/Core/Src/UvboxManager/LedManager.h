@@ -10,6 +10,7 @@
 
 
 #include "EventManager.h"
+#include <stdint.h>
 
 #define MAX_UVLED_PWM_PERIOD	160
 #define MAX_LED_PWM_PERIOD		0xFFFF

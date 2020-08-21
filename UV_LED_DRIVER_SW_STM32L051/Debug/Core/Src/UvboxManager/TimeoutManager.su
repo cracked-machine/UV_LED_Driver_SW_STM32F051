@@ -4,5 +4,5 @@ TimeoutManager.c:26:6:TM_UserDecrementTimer	8	static
 TimeoutManager.c:33:6:TM_DecrementTimer	8	static
 TimeoutManager.c:40:10:TM_GetTimerCount	8	static
 TimeoutManager.c:45:6:TM_CheckTimer	8	static
-TimeoutManager.c:53:6:TM_StartTimer	8	static
-TimeoutManager.c:60:6:TM_StopTimer	8	static
+TimeoutManager.c:59:6:TM_StartTimer	8	static
+TimeoutManager.c:66:6:TM_StopTimer	8	static

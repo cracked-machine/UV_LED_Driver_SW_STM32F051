@@ -61,6 +61,8 @@ void Error_Handler(void);
 
 /* Private defines -----------------------------------------------------------*/
 #define MAX_ENCODER_LIMIT 680
+#define LID_CLOSED_Pin GPIO_PIN_2
+#define LID_CLOSED_GPIO_Port GPIOA
 #define CS_Pin GPIO_PIN_3
 #define CS_GPIO_Port GPIOA
 #define DC_Pin GPIO_PIN_4
