@@ -16,6 +16,8 @@
 #define TIMETEXT		BLUE
 #define RUNTEXT			GREEN
 #define	STOPTEXT		RED
+#define SAFEBGCOLOUR	GREEN
+#define DANGERBGCOLOUR	RED
 
 //UVBOX_LidStatusTypedef eLidStatus = UVBOX_LIDOPEN;
 uint16_t debounce_last_interrupt_time = 0;
@@ -24,13 +26,15 @@ uint16_t debounce_last_interrupt_time = 0;
 void UM_DisplayRunningMsg()
 {
 	ILI9341_Fill_Screen(BLACK);
-	ILI9341_Draw_Text("RUNNING", 10, 120, RUNTEXT, 7, BGCOLOUR);
+	ILI9341_Draw_Text("RUNNING", 10, 120, GREY, 7, BGCOLOUR);
+	ILI9341_Draw_Text("UV", 250, 200, BLACK, 5, DANGERBGCOLOUR);
 }
 
 void UM_DisplayExpiredMsg()
 {
 	ILI9341_Fill_Screen(BLACK);
-	ILI9341_Draw_Text("STOPPED", 10, 120, STOPTEXT, 7, BGCOLOUR);
+	ILI9341_Draw_Text("STOPPED", 10, 120, GREY, 7, BGCOLOUR);
+	ILI9341_Draw_Text("LED", 150, 200, BLACK, 5, SAFEBGCOLOUR);
 	BUZZER_PWM.Instance->CCR1 = 127;
 	BUZZER_PWM.Instance->PSC = 32768;
 	HAL_Delay(3000);
@@ -129,7 +133,7 @@ void UM_Setup()
 
 	  HAL_Delay(100);
 	  ILI9341_Draw_Text("READY!", 100, 10, SYSTEXT, 1, BGCOLOUR);
-
+		ILI9341_Draw_Text("LED", 150, 200, BLACK, 5, SAFEBGCOLOUR);
 
 
 }

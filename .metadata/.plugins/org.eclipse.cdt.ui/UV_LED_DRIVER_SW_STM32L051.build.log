@@ -1,10 +1,20 @@
-21:57:32 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
+22:09:19 **** Incremental Build of configuration Debug for project UV_LED_DRIVER_SW_STM32L051 ****
 make -j4 all 
+arm-none-eabi-gcc "../Core/Src/UvboxManager/UvboxManager.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F051x8 -DDEBUG -c -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I"/home/chris/Projects/Embedded/Optimized_STM32_ILI9341" -I"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/Core/Src/UvboxManager" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UvboxManager/UvboxManager.d" -MT"Core/Src/UvboxManager/UvboxManager.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/UvboxManager/UvboxManager.o"
+arm-none-eabi-gcc -o "UV_LED_DRIVER_SW_STM32L051.elf" @"objects.list"   -mcpu=cortex-m0 -T"/home/chris/Projects/Embedded/UV_LED_Driver_SW_STM32F051/UV_LED_DRIVER_SW_STM32L051/STM32F051K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UV_LED_DRIVER_SW_STM32L051.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UV_LED_DRIVER_SW_STM32L051.elf
+ 
+arm-none-eabi-objdump -h -S  UV_LED_DRIVER_SW_STM32L051.elf  > "UV_LED_DRIVER_SW_STM32L051.list"
+arm-none-eabi-objcopy  -O binary  UV_LED_DRIVER_SW_STM32L051.elf  "UV_LED_DRIVER_SW_STM32L051.bin"
 arm-none-eabi-size   UV_LED_DRIVER_SW_STM32L051.elf 
    text	   data	    bss	    dec	    hex	filename
-  21144	    132	   2148	  23424	   5b80	UV_LED_DRIVER_SW_STM32L051.elf
+  21236	    132	   2148	  23516	   5bdc	UV_LED_DRIVER_SW_STM32L051.elf
 Finished building: default.size.stdout
+Finished building: UV_LED_DRIVER_SW_STM32L051.bin
+ 
+ 
+Finished building: UV_LED_DRIVER_SW_STM32L051.list
  
 
-21:57:33 Build Finished. 0 errors, 0 warnings. (took 581ms)
+22:09:20 Build Finished. 0 errors, 0 warnings. (took 831ms)
 
