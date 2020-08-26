@@ -1,8 +1,10 @@
 ## UV Lightbox
 
-Dual mode UV lightbox with adjustable LED brightness.
-- When lid is open, only the LED stips will light, allowing safe preparation of negatives.
-- When lid is closed, only the UV LED panels will light, to expose copper boards.
+UV lightbox with adjustable LED brightness.
+
+The lid uses a momentary switch to detect when the lid is closed or open.
+- When lid is open, only the LED stips will turn on, allowing safe preparation of negatives.
+- When lid is closed, only the UV LED panels will turn on.
 
 ### Software Overview
 
@@ -10,7 +12,7 @@ Dual mode UV lightbox with adjustable LED brightness.
 - EventManager implements a simple state machine.
 - LedManager controls the LED PWM for the two modes.
 
-The dependencies between files are shown below:
+__System overview__
 
 <p>
 <center>
@@ -18,6 +20,17 @@ The dependencies between files are shown below:
 </center>
 </p>
 
+__System behavior__
+
+- When the lid is closed the timer starts its countdown.
+- When the countdown has expired, the lid must be opened to reset the timer. This prevents the timer from restarting in a loop before the lid is opened.
+
+
+<p>
+<center>
+<img src="readme_diagrams/UV_LED_DRIVER_SW_STM32L051_Statechart.svg" height="240" width="480">
+</center>
+</p>
 ## Hardware Overview
 
 For hardware details see project: [UV_LED_DRIVER](https://github.com/cracked-machine/UV_LED_Driver/tree/master/UV_LED_Driver_Modular)
