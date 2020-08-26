@@ -28,7 +28,7 @@ __System behavior__
 
 <p>
 <center>
-<img src="readme_diagrams/UV_LED_DRIVER_SW_STM32L051_Statechart.svg" height="300" width="600">
+<img src="readme_diagrams/UV_LED_DRIVER_SW_STM32L051_Statechart.svg" height="300" width="800">
 </center>
 </p>
 
