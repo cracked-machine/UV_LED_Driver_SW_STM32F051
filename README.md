@@ -28,9 +28,10 @@ __System behavior__
 
 <p>
 <center>
-<img src="readme_diagrams/UV_LED_DRIVER_SW_STM32L051_Statechart.svg" height="240" width="480">
+<img src="readme_diagrams/UV_LED_DRIVER_SW_STM32L051_Statechart.svg" height="300" width="600">
 </center>
 </p>
-## Hardware Overview
+
+__Hardware Overview__
 
 For hardware details see project: [UV_LED_DRIVER](https://github.com/cracked-machine/UV_LED_Driver/tree/master/UV_LED_Driver_Modular)
