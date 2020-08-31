@@ -38,7 +38,7 @@ For hardware details see project: [UV_LED_DRIVER](https://github.com/cracked-mac
 
 __Exposure Timer__
 
-To get a one second timer countdown:
+To get a one second timer tick for the exposure countdown clock:
 
 MCLK / (TIMER_PSC * TIMER_PERIOD) = Countdown (in Hz)
 48000000 / (704 * 65535) = 1.0404 Hz
