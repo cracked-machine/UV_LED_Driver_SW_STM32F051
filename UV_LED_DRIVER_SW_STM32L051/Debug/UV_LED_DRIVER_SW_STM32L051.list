@@ -932,7 +932,7 @@ void RE_setPrevEncoderDir(UVBOX_EncoderDirTypeDef direction)
  8000600:	200000ac 	.word	0x200000ac
 
 08000604 <TM_ResetTimer>:
-#define DEFAULT_TIMEOUT 10
+#define DEFAULT_TIMEOUT 30
 uint16_t user_defined_timeout = DEFAULT_TIMEOUT;		// seconds
 uint16_t timer_count = DEFAULT_TIMEOUT;
 
@@ -942,7 +942,7 @@ void TM_ResetTimer()
  8000606:	af00      	add	r7, sp, #0
 	timer_count = DEFAULT_TIMEOUT;
  8000608:	4b02      	ldr	r3, [pc, #8]	; (8000614 <TM_ResetTimer+0x10>)
- 800060a:	220a      	movs	r2, #10
+ 800060a:	221e      	movs	r2, #30
  800060c:	801a      	strh	r2, [r3, #0]
 }
  800060e:	46c0      	nop			; (mov r8, r8)
@@ -956,17 +956,17 @@ void TM_UserIncrementTimer()
 {
  8000618:	b580      	push	{r7, lr}
  800061a:	af00      	add	r7, sp, #0
-	user_defined_timeout += 10;
+	user_defined_timeout += 5;
  800061c:	4b07      	ldr	r3, [pc, #28]	; (800063c <TM_UserIncrementTimer+0x24>)
  800061e:	881b      	ldrh	r3, [r3, #0]
- 8000620:	330a      	adds	r3, #10
+ 8000620:	3305      	adds	r3, #5
  8000622:	b29a      	uxth	r2, r3
  8000624:	4b05      	ldr	r3, [pc, #20]	; (800063c <TM_UserIncrementTimer+0x24>)
  8000626:	801a      	strh	r2, [r3, #0]
-	timer_count += 10;
+	timer_count += 5;
  8000628:	4b05      	ldr	r3, [pc, #20]	; (8000640 <TM_UserIncrementTimer+0x28>)
  800062a:	881b      	ldrh	r3, [r3, #0]
- 800062c:	330a      	adds	r3, #10
+ 800062c:	3305      	adds	r3, #5
  800062e:	b29a      	uxth	r2, r3
  8000630:	4b03      	ldr	r3, [pc, #12]	; (8000640 <TM_UserIncrementTimer+0x28>)
  8000632:	801a      	strh	r2, [r3, #0]
@@ -984,17 +984,17 @@ void TM_UserDecrementTimer()
 {
  8000644:	b580      	push	{r7, lr}
  8000646:	af00      	add	r7, sp, #0
-	user_defined_timeout -= 10;
+	user_defined_timeout -= 5;
  8000648:	4b07      	ldr	r3, [pc, #28]	; (8000668 <TM_UserDecrementTimer+0x24>)
  800064a:	881b      	ldrh	r3, [r3, #0]
- 800064c:	3b0a      	subs	r3, #10
+ 800064c:	3b05      	subs	r3, #5
  800064e:	b29a      	uxth	r2, r3
  8000650:	4b05      	ldr	r3, [pc, #20]	; (8000668 <TM_UserDecrementTimer+0x24>)
  8000652:	801a      	strh	r2, [r3, #0]
-	timer_count -= 10;
+	timer_count -= 5;
  8000654:	4b05      	ldr	r3, [pc, #20]	; (800066c <TM_UserDecrementTimer+0x28>)
  8000656:	881b      	ldrh	r3, [r3, #0]
- 8000658:	3b0a      	subs	r3, #10
+ 8000658:	3b05      	subs	r3, #5
  800065a:	b29a      	uxth	r2, r3
  800065c:	4b03      	ldr	r3, [pc, #12]	; (800066c <TM_UserDecrementTimer+0x28>)
  800065e:	801a      	strh	r2, [r3, #0]
@@ -3081,10 +3081,10 @@ void MX_TIM6_Init(void)
  800120c:	4b15      	ldr	r3, [pc, #84]	; (8001264 <MX_TIM6_Init+0x6c>)
  800120e:	4a16      	ldr	r2, [pc, #88]	; (8001268 <MX_TIM6_Init+0x70>)
  8001210:	601a      	str	r2, [r3, #0]
-  htim6.Init.Prescaler = 366;
+  htim6.Init.Prescaler = 704;
  8001212:	4b14      	ldr	r3, [pc, #80]	; (8001264 <MX_TIM6_Init+0x6c>)
- 8001214:	22b7      	movs	r2, #183	; 0xb7
- 8001216:	0052      	lsls	r2, r2, #1
+ 8001214:	22b0      	movs	r2, #176	; 0xb0
+ 8001216:	0092      	lsls	r2, r2, #2
  8001218:	605a      	str	r2, [r3, #4]
   htim6.Init.CounterMode = TIM_COUNTERMODE_UP;
  800121a:	4b12      	ldr	r3, [pc, #72]	; (8001264 <MX_TIM6_Init+0x6c>)

@@ -35,3 +35,10 @@ __System behavior__
 __Hardware Overview__
 
 For hardware details see project: [UV_LED_DRIVER](https://github.com/cracked-machine/UV_LED_Driver/tree/master/UV_LED_Driver_Modular)
+
+__Exposure Timer__
+
+To get a one second timer countdown:
+
+MCLK / (TIMER_PSC * TIMER_PERIOD) = Countdown (in Hz)
+48000000 / (704 * 65535) = 1.0404 Hz

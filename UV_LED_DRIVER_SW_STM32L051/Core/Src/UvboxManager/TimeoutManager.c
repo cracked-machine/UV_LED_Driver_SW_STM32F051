@@ -8,7 +8,7 @@
 #include "TimeoutManager.h"
 #include "UvboxManager.h"
 
-#define DEFAULT_TIMEOUT 10
+#define DEFAULT_TIMEOUT 30
 uint16_t user_defined_timeout = DEFAULT_TIMEOUT;		// seconds
 uint16_t timer_count = DEFAULT_TIMEOUT;
 
@@ -19,14 +19,14 @@ void TM_ResetTimer()
 
 void TM_UserIncrementTimer()
 {
-	user_defined_timeout += 10;
-	timer_count += 10;
+	user_defined_timeout += 5;
+	timer_count += 5;
 }
 
 void TM_UserDecrementTimer()
 {
-	user_defined_timeout -= 10;
-	timer_count -= 10;
+	user_defined_timeout -= 5;
+	timer_count -= 5;
 }
 
 
